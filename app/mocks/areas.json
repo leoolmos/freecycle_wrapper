@@ -1,0 +1,2446 @@
+[
+  {
+    "id": "AberdeenUK",
+    "label": "Aberdeen (Scotland)"
+  },
+  {
+    "id": "AberdeenshireWestFreecycle",
+    "label": "Aberdeenshire West, Upper Donside &amp; Upper Deeside (Scotland)"
+  },
+  {
+    "id": "AbergavennyUK",
+    "label": "Abergavenny (Wales)"
+  },
+  {
+    "id": "AberystwythUK",
+    "label": "Aberystwyth (Wales)"
+  },
+  {
+    "id": "AirdrieUK",
+    "label": "Airdrie (Scotland)"
+  },
+  {
+    "id": "AlderneyUK",
+    "label": "Alderney (South East)"
+  },
+  {
+    "id": "AlnwickUK",
+    "label": "Alnwick (North East)"
+  },
+  {
+    "id": "AmberValleyUK",
+    "label": "Amber Valley (East Midlands)"
+  },
+  {
+    "id": "AmpthillFlitwickUK",
+    "label": "Ampthill &amp; Flitwick (East)"
+  },
+  {
+    "id": "AndoverFreecycle",
+    "label": "Andover (South East)"
+  },
+  {
+    "id": "AngleseyWalesFreecycle",
+    "label": "Anglesey (Wales)"
+  },
+  {
+    "id": "ArbroathUK",
+    "label": "Arbroath (Scotland)"
+  },
+  {
+    "id": "ArmaghNI",
+    "label": "Armagh Freecycle (Northern Ireland)"
+  },
+  {
+    "id": "ascot-freecycle",
+    "label": "Ascot (South East)"
+  },
+  {
+    "id": "Ash-cum-RidleyUK",
+    "label": "Ash-cum-Ridley (South East)"
+  },
+  {
+    "id": "AshbourneFreecycle",
+    "label": "Ashbourne (East Midlands)"
+  },
+  {
+    "id": "freecycle_ashfield",
+    "label": "Ashfield (East Midlands)"
+  },
+  {
+    "id": "AshfordUK",
+    "label": "Ashford (South East)"
+  },
+  {
+    "id": "AshingtonNewbigginUK",
+    "label": "Ashington &amp; Newbiggin (North East)"
+  },
+  {
+    "id": "AshtonBedminsterSouthvilleUK",
+    "label": "Ashton, Bedminster &amp; Southville (South West)"
+  },
+  {
+    "id": "aylesbury_freecycle",
+    "label": "Aylesbury (South East)"
+  },
+  {
+    "id": "freecycleayr",
+    "label": "Ayr (Scotland)"
+  },
+  {
+    "id": "Ballymena_Freecycle",
+    "label": "Ballymena (Northern Ireland)"
+  },
+  {
+    "id": "bamberbridge",
+    "label": "Bamber Bridge (North West)"
+  },
+  {
+    "id": "banbury_Freecycle",
+    "label": "Banbury (South East)"
+  },
+  {
+    "id": "BangorFreecycle",
+    "label": "Bangor (Wales)"
+  },
+  {
+    "id": "BansteadFreecycle",
+    "label": "Banstead (South East)"
+  },
+  {
+    "id": "BarkingandDagenham",
+    "label": "Barking &amp; Dagenham (London)"
+  },
+  {
+    "id": "BarnetUK",
+    "label": "Barnet (London)"
+  },
+  {
+    "id": "Barnsley_Freecycle",
+    "label": "Barnsley (Yorkshire and the Humber)"
+  },
+  {
+    "id": "BarnstapleUK",
+    "label": "Barnstaple (South West)"
+  },
+  {
+    "id": "BarrowFreeCycle",
+    "label": "Barrow-in-Furness (North West)"
+  },
+  {
+    "id": "BartonUponHumber",
+    "label": "Barton Upon Humber (Yorkshire and the Humber)"
+  },
+  {
+    "id": "BartonLeClayUK",
+    "label": "Barton-le-Clay (East)"
+  },
+  {
+    "id": "BasildonUK",
+    "label": "Basildon (East)"
+  },
+  {
+    "id": "BasingstokeFreecycle",
+    "label": "Basingstoke (South East)"
+  },
+  {
+    "id": "BathUK",
+    "label": "Bath (South West)"
+  },
+  {
+    "id": "BathgateFreecycle",
+    "label": "Bathgate (Scotland)"
+  },
+  {
+    "id": "BedfordUK",
+    "label": "Bedford (East)"
+  },
+  {
+    "id": "BeestonUK",
+    "label": "Beeston (East Midlands)"
+  },
+  {
+    "id": "belfastUKfreecycle",
+    "label": "Belfast (Northern Ireland)"
+  },
+  {
+    "id": "BenfleetUK",
+    "label": "Benfleet (East)"
+  },
+  {
+    "id": "BerkhamstedUK",
+    "label": "Berkhamsted (East)"
+  },
+  {
+    "id": "Berwick-upon-TweedUK",
+    "label": "Berwick-upon-Tweed (North East)"
+  },
+  {
+    "id": "BerwickshireUK",
+    "label": "Berwickshire (Scotland)"
+  },
+  {
+    "id": "bexhillfreecycle",
+    "label": "Bexhill (South East)"
+  },
+  {
+    "id": "BexleyUK",
+    "label": "Bexley (London)"
+  },
+  {
+    "id": "BicesterUK",
+    "label": "Bicester (South East)"
+  },
+  {
+    "id": "biddulph",
+    "label": "Biddulph Staffs (West Midlands)"
+  },
+  {
+    "id": "Freecycle-Bideford",
+    "label": "Bideford (South West)"
+  },
+  {
+    "id": "BiggleswadeUK",
+    "label": "Biggleswade (East)"
+  },
+  {
+    "id": "BillericayUK",
+    "label": "Billericay (East)"
+  },
+  {
+    "id": "birmingham_freecycle",
+    "label": "Birmingham (West Midlands)"
+  },
+  {
+    "id": "BishopsStortfordUK",
+    "label": "Bishops Stortford (East)"
+  },
+  {
+    "id": "BlabyUK",
+    "label": "Blaby (East Midlands)"
+  },
+  {
+    "id": "BlackburnwithDarwen-Freecycle",
+    "label": "Blackburn with Darwen (North West)"
+  },
+  {
+    "id": "blackpoolfreecycle",
+    "label": "Blackpool (North West)"
+  },
+  {
+    "id": "blackwood",
+    "label": "Blackwood Gwent (Wales)"
+  },
+  {
+    "id": "BlaenauGwentFreecycle",
+    "label": "Blaenau Gwent (Wales)"
+  },
+  {
+    "id": "BodminUK",
+    "label": "Bodmin (South West)"
+  },
+  {
+    "id": "freecyclebognor",
+    "label": "Bognor Regis (South East)"
+  },
+  {
+    "id": "BoltonFreecycle",
+    "label": "Bolton (North West)"
+  },
+  {
+    "id": "BordonAltonPetersfieldUK",
+    "label": "Bordon, Alton &amp; Petersfield (South East)"
+  },
+  {
+    "id": "boston_skegfreecycle",
+    "label": "Boston &amp; Skegness (East Midlands)"
+  },
+  {
+    "id": "BourneLincs",
+    "label": "Bourne (East Midlands)"
+  },
+  {
+    "id": "BournemouthUKFreecycle",
+    "label": "Bournemouth (South West)"
+  },
+  {
+    "id": "BrackleyUK",
+    "label": "Brackley (East Midlands)"
+  },
+  {
+    "id": "bracknell-forest-freecycle",
+    "label": "Bracknell (South East)"
+  },
+  {
+    "id": "freecyclebradford",
+    "label": "Bradford (Yorkshire and the Humber)"
+  },
+  {
+    "id": "Bradford-On-AvonUK",
+    "label": "Bradford-on-Avon (South West)"
+  },
+  {
+    "id": "BraintreeUK",
+    "label": "Braintree (East)"
+  },
+  {
+    "id": "BrecklandUK",
+    "label": "Breckland (East)"
+  },
+  {
+    "id": "breconandhayfreecycle",
+    "label": "Brecon and Hay (Wales)"
+  },
+  {
+    "id": "BrentUK",
+    "label": "Brent (London)"
+  },
+  {
+    "id": "BrentwoodUK",
+    "label": "Brentwood (East)"
+  },
+  {
+    "id": "bcandsfreecycle",
+    "label": "Brewood Codsall &amp; Stretton (West Midlands)"
+  },
+  {
+    "id": "BridgendUK",
+    "label": "Bridgend / Pen-y-Bont ar Ogwr (Wales)"
+  },
+  {
+    "id": "BridgnorthUK",
+    "label": "Bridgnorth (West Midlands)"
+  },
+  {
+    "id": "BridgwaterUK",
+    "label": "Bridgwater (South West)"
+  },
+  {
+    "id": "BridlingtonUK",
+    "label": "Bridlington (Yorkshire and the Humber)"
+  },
+  {
+    "id": "freecyclebrighton",
+    "label": "Brighton (South East)"
+  },
+  {
+    "id": "BristolUK",
+    "label": "Bristol (South West)"
+  },
+  {
+    "id": "BroadlandUK",
+    "label": "Broadland District (East)"
+  },
+  {
+    "id": "BromleyUK",
+    "label": "Bromley (London)"
+  },
+  {
+    "id": "bromsgrovefreecycle",
+    "label": "Bromsgrove (West Midlands)"
+  },
+  {
+    "id": "bromyardwinslowUK",
+    "label": "Bromyard-Winslow UK (West Midlands)"
+  },
+  {
+    "id": "BuckinghamUK",
+    "label": "Buckingham (South East)"
+  },
+  {
+    "id": "BudeUK",
+    "label": "Bude (South West)"
+  },
+  {
+    "id": "FreecycleBurgessHill",
+    "label": "Burgess Hill (South East)"
+  },
+  {
+    "id": "burnleyandpendlefreecycle",
+    "label": "Burnley &amp; Pendle (North West)"
+  },
+  {
+    "id": "burtonfreecycle",
+    "label": "Burton-upon-Trent (West Midlands)"
+  },
+  {
+    "id": "burwash-freecycle",
+    "label": "Burwash (South East)"
+  },
+  {
+    "id": "BuryUK",
+    "label": "Bury (North West)"
+  },
+  {
+    "id": "BuryStEdmundsUK",
+    "label": "Bury St Edmunds (East)"
+  },
+  {
+    "id": "BusheyUK",
+    "label": "Bushey (East)"
+  },
+  {
+    "id": "BuxtonFreecycleUK",
+    "label": "Buxton (East Midlands)"
+  },
+  {
+    "id": "CaernarfonUK",
+    "label": "Caernarfon (Wales)"
+  },
+  {
+    "id": "Caerphilly_Freecycle",
+    "label": "Caerphilly (Wales)"
+  },
+  {
+    "id": "CaistorUK",
+    "label": "Caistor (Yorkshire and the Humber)"
+  },
+  {
+    "id": "CalderdaleFreecycle",
+    "label": "Calderdale (Yorkshire and the Humber)"
+  },
+  {
+    "id": "FreeCycle_Camborne_Redruth",
+    "label": "Camborne &amp; Redruth (South West)"
+  },
+  {
+    "id": "CambridgeUK",
+    "label": "Cambridge (East)"
+  },
+  {
+    "id": "HampsteadUK",
+    "label": "Camden (Hampstead) (London)"
+  },
+  {
+    "id": "KentishtownUK",
+    "label": "Camden (Kentish Town) (London)"
+  },
+  {
+    "id": "CamdenSouthUK",
+    "label": "Camden South (London)"
+  },
+  {
+    "id": "cannockfreecycleuk",
+    "label": "Cannock (West Midlands)"
+  },
+  {
+    "id": "canterburyfreecycle",
+    "label": "Canterbury (South East)"
+  },
+  {
+    "id": "CanveyIslandUK",
+    "label": "Canvey Island (East)"
+  },
+  {
+    "id": "CardiffUK",
+    "label": "Cardiff (Wales)"
+  },
+  {
+    "id": "CarlisleFreecycle-UK",
+    "label": "Carlisle (North West)"
+  },
+  {
+    "id": "CarmarthenshireUK",
+    "label": "Carmarthenshire / Sir Gar / Sir Gaerfyrddin (Wales)"
+  },
+  {
+    "id": "carnforthukfreecycle",
+    "label": "Carnforth (North West)"
+  },
+  {
+    "id": "carrickfergus",
+    "label": "Carrickfergus (Northern Ireland)"
+  },
+  {
+    "id": "caterhamUK",
+    "label": "Caterham UK (South East)"
+  },
+  {
+    "id": "freecyclefifecentral",
+    "label": "Central Fife (Scotland)"
+  },
+  {
+    "id": "ChardSomersetUK",
+    "label": "Chard, Somerset (South West)"
+  },
+  {
+    "id": "freecycle_Chatham",
+    "label": "Chatham (South East)"
+  },
+  {
+    "id": "ChelmsfordFreecycleUK",
+    "label": "Chelmsford (East)"
+  },
+  {
+    "id": "CheltenhamUK",
+    "label": "Cheltenham (South West)"
+  },
+  {
+    "id": "CherwellValleyFreeCycle",
+    "label": "Cherwell Valley (South East)"
+  },
+  {
+    "id": "CheshuntWalthamCrossUK",
+    "label": "Cheshunt Waltham Cross (East)"
+  },
+  {
+    "id": "Cheslyn_Hay_Freecycle",
+    "label": "Cheslyn Hay (West Midlands)"
+  },
+  {
+    "id": "chestercityeastfreecycle",
+    "label": "Chester City East (North West)"
+  },
+  {
+    "id": "ChesterCityWest",
+    "label": "Chester City West (North West)"
+  },
+  {
+    "id": "ChesterfieldUK",
+    "label": "Chesterfield (East Midlands)"
+  },
+  {
+    "id": "ChewValleyUK",
+    "label": "Chew Valley (South West)"
+  },
+  {
+    "id": "ChichesterUK",
+    "label": "Chichester (South East)"
+  },
+  {
+    "id": "ChilternFreecycle",
+    "label": "Chiltern District (South East)"
+  },
+  {
+    "id": "freecyclechippenham",
+    "label": "Chippenham (South West)"
+  },
+  {
+    "id": "chippyfreecycle",
+    "label": "Chipping Norton (South East)"
+  },
+  {
+    "id": "freecycle-chorley",
+    "label": "Chorley (North West)"
+  },
+  {
+    "id": "ChorleywoodUK",
+    "label": "Chorleywood (East)"
+  },
+  {
+    "id": "CirencesterUK",
+    "label": "Cirencester (South West)"
+  },
+  {
+    "id": "CityOfLondon",
+    "label": "City of London (London)"
+  },
+  {
+    "id": "freecycleclacks",
+    "label": "Clackmannanshire (Scotland)"
+  },
+  {
+    "id": "Clacton-on-SeaUK",
+    "label": "Clacton-on-Sea (East)"
+  },
+  {
+    "id": "ColchesterUK",
+    "label": "Colchester (East)"
+  },
+  {
+    "id": "FreeCycleColeraine",
+    "label": "Coleraine Triangle (Northern Ireland)"
+  },
+  {
+    "id": "CongletonUK",
+    "label": "Congleton (North West)"
+  },
+  {
+    "id": "Conwyfreecycle",
+    "label": "Conwy (Wales)"
+  },
+  {
+    "id": "CookstownDungannonUK",
+    "label": "Cookstown &amp; Dungannon (Northern Ireland)"
+  },
+  {
+    "id": "CorbyUK",
+    "label": "Corby (East Midlands)"
+  },
+  {
+    "id": "coventryfreecycle",
+    "label": "Coventry (West Midlands)"
+  },
+  {
+    "id": "cramlington-freecycle",
+    "label": "Cramlington (North East)"
+  },
+  {
+    "id": "CranbrookUK",
+    "label": "Cranbrook (South East)"
+  },
+  {
+    "id": "CrawleyUK",
+    "label": "Crawley (South East)"
+  },
+  {
+    "id": "CreditonUK",
+    "label": "Crediton (South West)"
+  },
+  {
+    "id": "creweUK",
+    "label": "Crewe Cheshire UK (North West)"
+  },
+  {
+    "id": "freecyclecrosby",
+    "label": "Crosby (North West)"
+  },
+  {
+    "id": "CrowboroughUK",
+    "label": "Crowborough (South East)"
+  },
+  {
+    "id": "CroydonUK",
+    "label": "Croydon (London)"
+  },
+  {
+    "id": "cumbernauld-freecycle",
+    "label": "Cumbernauld (Scotland)"
+  },
+  {
+    "id": "FreecycleDarlington",
+    "label": "Darlington (North East)"
+  },
+  {
+    "id": "DartfordUK_Freecycle",
+    "label": "Dartford (South East)"
+  },
+  {
+    "id": "FreeCycle-Dartmouth-and-Kingsbridge",
+    "label": "Dartmouth and Kingsbridge (South West)"
+  },
+  {
+    "id": "daventryfreecycle",
+    "label": "Daventry (East Midlands)"
+  },
+  {
+    "id": "Debenham-Framlingham",
+    "label": "Debenham - Framlingham (East)"
+  },
+  {
+    "id": "DengiePeninsulaUK",
+    "label": "Dengie Peninsula (East)"
+  },
+  {
+    "id": "DerbyFreecycle",
+    "label": "Derby (East Midlands)"
+  },
+  {
+    "id": "derwentsidefreecycle",
+    "label": "Derwentside (North East)"
+  },
+  {
+    "id": "DevizesUK",
+    "label": "Devizes, Wiltshire (South West)"
+  },
+  {
+    "id": "DewsburyUK",
+    "label": "Dewsbury (Yorkshire and the Humber)"
+  },
+  {
+    "id": "DoncasterUK",
+    "label": "Doncaster (Yorkshire and the Humber)"
+  },
+  {
+    "id": "DorkingUK",
+    "label": "Dorking UK (South East)"
+  },
+  {
+    "id": "DoverFreecycle",
+    "label": "Dover (South East)"
+  },
+  {
+    "id": "DroitwichSpaUK",
+    "label": "Droitwich Spa (West Midlands)"
+  },
+  {
+    "id": "DudleyUKFreecycle",
+    "label": "Dudley (incl Stourbridge &amp; Halesowen) (West Midlands)"
+  },
+  {
+    "id": "Dumbarton",
+    "label": "Dumbarton (Scotland)"
+  },
+  {
+    "id": "Dumfries-GallowayFreecycle",
+    "label": "Dumfries &amp; Galloway (Scotland)"
+  },
+  {
+    "id": "freecycledundee",
+    "label": "Dundee (Scotland)"
+  },
+  {
+    "id": "DunoonUK",
+    "label": "Dunoon (Scotland)"
+  },
+  {
+    "id": "FreecycleDunstable",
+    "label": "Dunstable (East)"
+  },
+  {
+    "id": "durham_freecycle",
+    "label": "Durham (North East)"
+  },
+  {
+    "id": "dursleyfreecycle",
+    "label": "Dursley (South West)"
+  },
+  {
+    "id": "EalingUK",
+    "label": "Ealing (London)"
+  },
+  {
+    "id": "edunbartonfreecycle",
+    "label": "East Dunbartonshire (Scotland)"
+  },
+  {
+    "id": "EastFifeUK",
+    "label": "East Fife (Scotland)"
+  },
+  {
+    "id": "eastgrinstead",
+    "label": "East Grinstead (South East)"
+  },
+  {
+    "id": "EastLothianUK",
+    "label": "East Lothian (Scotland)"
+  },
+  {
+    "id": "eastbourne_freecycle",
+    "label": "Eastbourne (South East)"
+  },
+  {
+    "id": "Easter-RossFreecycle",
+    "label": "Easter-Ross (Scotland)"
+  },
+  {
+    "id": "EastleighUK",
+    "label": "Eastleigh (South East)"
+  },
+  {
+    "id": "EastwoodFreecycleUK",
+    "label": "Eastwood (East Midlands)"
+  },
+  {
+    "id": "FreecycleEdinburgh",
+    "label": "Edinburgh (Scotland)"
+  },
+  {
+    "id": "Ellon",
+    "label": "Ellon (Scotland)"
+  },
+  {
+    "id": "Elmbridge_Freecycle",
+    "label": "Elmbridge (South East)"
+  },
+  {
+    "id": "EnfieldUK",
+    "label": "Enfield (London)"
+  },
+  {
+    "id": "EnniskillenNI",
+    "label": "Enniskillen (Northern Ireland)"
+  },
+  {
+    "id": "Epsom",
+    "label": "Epsom (South East)"
+  },
+  {
+    "id": "eveshampershorefreecycle",
+    "label": "Evesham &amp; Pershore (West Midlands)"
+  },
+  {
+    "id": "ExeterUK",
+    "label": "Exeter (South West)"
+  },
+  {
+    "id": "ExmouthUK",
+    "label": "Exmouth (South West)"
+  },
+  {
+    "id": "FalkirkUK",
+    "label": "Falkirk (Scotland)"
+  },
+  {
+    "id": "FalmouthUK",
+    "label": "Falmouth (South West)"
+  },
+  {
+    "id": "fareham_freecycle",
+    "label": "Fareham (South East)"
+  },
+  {
+    "id": "Farnborough_AldershotUK",
+    "label": "Farnborough &amp; Aldershot (South East)"
+  },
+  {
+    "id": "Farnham",
+    "label": "Farnham (South East)"
+  },
+  {
+    "id": "FavershamUK",
+    "label": "Faversham (South East)"
+  },
+  {
+    "id": "Feltham-Bedfont-HanworthUK",
+    "label": "Feltham / Bedfont / Hanworth (London)"
+  },
+  {
+    "id": "fenlandfreecycle",
+    "label": "Fenland (East)"
+  },
+  {
+    "id": "FiltonPatchwayStokesUK",
+    "label": "Filton-Patchway and Stokes (South West)"
+  },
+  {
+    "id": "FlintshireFreecycle",
+    "label": "Flintshire (Wales)"
+  },
+  {
+    "id": "freecyclefolkestone",
+    "label": "Folkestone (South East)"
+  },
+  {
+    "id": "ForestOfDeanUK",
+    "label": "Forest of Dean (South West)"
+  },
+  {
+    "id": "FoyleFreecycle",
+    "label": "Foyle (Northern Ireland)"
+  },
+  {
+    "id": "FromeUK",
+    "label": "Frome (South West)"
+  },
+  {
+    "id": "GainsboroughUK",
+    "label": "Gainsborough (East Midlands)"
+  },
+  {
+    "id": "Galashiels_Freecycle",
+    "label": "Galashiels / Selkirk (Scotland)"
+  },
+  {
+    "id": "Gateshead_Freecycle",
+    "label": "Gateshead (North East)"
+  },
+  {
+    "id": "Gillinghamfreecycle",
+    "label": "Gillingham (South East)"
+  },
+  {
+    "id": "GlasgowUK",
+    "label": "Glasgow (Scotland)"
+  },
+  {
+    "id": "glossop-freecycle-uk",
+    "label": "Glossop (East Midlands)"
+  },
+  {
+    "id": "gloucestercityfreecycle",
+    "label": "Gloucester City (South West)"
+  },
+  {
+    "id": "godalmingUK",
+    "label": "Godalming UK (South East)"
+  },
+  {
+    "id": "Goole",
+    "label": "Goole (Yorkshire and the Humber)"
+  },
+  {
+    "id": "GosportUK",
+    "label": "Gosport (South East)"
+  },
+  {
+    "id": "freecyclegrangemouth",
+    "label": "Grangemouth (Scotland)"
+  },
+  {
+    "id": "granthamUK",
+    "label": "Grantham UK (East Midlands)"
+  },
+  {
+    "id": "Gravesend_Freecycle",
+    "label": "Gravesend (South East)"
+  },
+  {
+    "id": "greatdunmow",
+    "label": "Great Dunmow (East)"
+  },
+  {
+    "id": "greatyarmouthfreecycle",
+    "label": "Great Yarmouth (East)"
+  },
+  {
+    "id": "GreenockUK",
+    "label": "Greenock (Scotland)"
+  },
+  {
+    "id": "GreenwichUK",
+    "label": "Greenwich (London)"
+  },
+  {
+    "id": "freecyclegrimsby",
+    "label": "Grimsby (Yorkshire and the Humber)"
+  },
+  {
+    "id": "guernseyfreecycle",
+    "label": "Guernsey (South East)"
+  },
+  {
+    "id": "guildfordfreecycle",
+    "label": "Guildford (South East)"
+  },
+  {
+    "id": "GuiseleyUK",
+    "label": "Guiseley (Yorkshire and the Humber)"
+  },
+  {
+    "id": "HackneyUK",
+    "label": "Hackney (London)"
+  },
+  {
+    "id": "HamiltonLarkhall",
+    "label": "Hamilton Larkhall (Scotland)"
+  },
+  {
+    "id": "HammersmithandFulhamUK",
+    "label": "Hammersmith &amp; Fulham (London)"
+  },
+  {
+    "id": "HaringeyUK",
+    "label": "Haringey (London)"
+  },
+  {
+    "id": "HarlowUK",
+    "label": "Harlow (East)"
+  },
+  {
+    "id": "HarpendenUK",
+    "label": "Harpenden (East)"
+  },
+  {
+    "id": "Harrogate",
+    "label": "Harrogate (Yorkshire and the Humber)"
+  },
+  {
+    "id": "HarrowUK",
+    "label": "Harrow (London)"
+  },
+  {
+    "id": "poolsfreecycle",
+    "label": "Hartlepool (North East)"
+  },
+  {
+    "id": "HarwichUK",
+    "label": "Harwich (East)"
+  },
+  {
+    "id": "HastingsUK",
+    "label": "Hastings (South East)"
+  },
+  {
+    "id": "HatfieldHerts",
+    "label": "Hatfield (East)"
+  },
+  {
+    "id": "HavantFreecycle",
+    "label": "Havant (South East)"
+  },
+  {
+    "id": "Haverhill",
+    "label": "Haverhill (East)"
+  },
+  {
+    "id": "HaveringUK",
+    "label": "Havering (London)"
+  },
+  {
+    "id": "FreecycleHayle",
+    "label": "Hayle &amp; St Ives (South West)"
+  },
+  {
+    "id": "haywardsheathfreecycle",
+    "label": "Haywards Heath (South East)"
+  },
+  {
+    "id": "helensburgh-freecycle",
+    "label": "Helensburgh (Scotland)"
+  },
+  {
+    "id": "HelstonUK",
+    "label": "Helston (South West)"
+  },
+  {
+    "id": "Hemel_UK",
+    "label": "Hemel Hempstead (East)"
+  },
+  {
+    "id": "hemsby",
+    "label": "Hemsby (East)"
+  },
+  {
+    "id": "henleyonthames-freecycle",
+    "label": "Henley-on-Thames (South East)"
+  },
+  {
+    "id": "HerefordUK",
+    "label": "Hereford UK (West Midlands)"
+  },
+  {
+    "id": "hertford_freecycle",
+    "label": "Hertford (East)"
+  },
+  {
+    "id": "HexhamUK",
+    "label": "Hexham (North East)"
+  },
+  {
+    "id": "HeywoodUK",
+    "label": "Heywood (North West)"
+  },
+  {
+    "id": "high_wycombe_freecycle",
+    "label": "High Wycombe (South East)"
+  },
+  {
+    "id": "HillingdonUK",
+    "label": "Hillingdon (London)"
+  },
+  {
+    "id": "Hinckley_and_Bosworth_Freecycle",
+    "label": "Hinckley &amp; Bosworth (East Midlands)"
+  },
+  {
+    "id": "HoddesdonUK",
+    "label": "Hoddesdon (East)"
+  },
+  {
+    "id": "HonitonUK",
+    "label": "Honiton (South West)"
+  },
+  {
+    "id": "HooPeninsulaUK",
+    "label": "Hoo Peninsula (South East)"
+  },
+  {
+    "id": "HookHart",
+    "label": "Hook Hart (South East)"
+  },
+  {
+    "id": "HorshamUK",
+    "label": "Horsham (South East)"
+  },
+  {
+    "id": "HounslowCentralNorthandEastUK",
+    "label": "Hounslow - Central / North / East (London)"
+  },
+  {
+    "id": "Freecycle-Hove",
+    "label": "Hove (South East)"
+  },
+  {
+    "id": "HuddersfieldFreeCycle",
+    "label": "Huddersfield (Yorkshire and the Humber)"
+  },
+  {
+    "id": "HullUK",
+    "label": "Hull (Yorkshire and the Humber)"
+  },
+  {
+    "id": "HunstantonHeachamUK",
+    "label": "Hunstanton and Heacham (East)"
+  },
+  {
+    "id": "freecycle_hunts",
+    "label": "Huntingdon (East)"
+  },
+  {
+    "id": "HuntlyUK",
+    "label": "Huntly (Scotland)"
+  },
+  {
+    "id": "hyndburnfreecycle",
+    "label": "Hyndburn (North West)"
+  },
+  {
+    "id": "IlkestonUK",
+    "label": "Ilkeston (East Midlands)"
+  },
+  {
+    "id": "Freecycle_Ilkley",
+    "label": "Ilkley (Yorkshire and the Humber)"
+  },
+  {
+    "id": "InvernessUK",
+    "label": "Inverness and the Highland Region (Scotland)"
+  },
+  {
+    "id": "Ipswich_Freecycle",
+    "label": "Ipswich (East)"
+  },
+  {
+    "id": "IrvineUK",
+    "label": "Irvine (Scotland)"
+  },
+  {
+    "id": "IsleOfBute",
+    "label": "Isle of Bute (Scotland)"
+  },
+  {
+    "id": "IsleofManUK",
+    "label": "Isle of Man (North West)"
+  },
+  {
+    "id": "sheppeyfreecycle",
+    "label": "Isle of Sheppey (South East)"
+  },
+  {
+    "id": "IWFreecycle",
+    "label": "Isle of Wight (South East)"
+  },
+  {
+    "id": "IslesofScillyUK",
+    "label": "Isles of Scilly (South West)"
+  },
+  {
+    "id": "IslingtonEastUK",
+    "label": "Islington East-Finsbury Park,Highbury,Newington Gr (London)"
+  },
+  {
+    "id": "IslingtonNorthUK",
+    "label": "Islington Nrth-Highgate,Archway,Tufnell Park etc. (London)"
+  },
+  {
+    "id": "IslingtonSouthUK",
+    "label": "Islington Sth-Clerkenwell-Essex Rd-Finsbury-Old St (London)"
+  },
+  {
+    "id": "IslingtonWestUK",
+    "label": "Islington West-Lower Holloway,Barnsbury,Kings X (London)"
+  },
+  {
+    "id": "JerseyUK",
+    "label": "Jersey (South East)"
+  },
+  {
+    "id": "KeighleyUK",
+    "label": "Keighley (Yorkshire and the Humber)"
+  },
+  {
+    "id": "KendalFreecycle",
+    "label": "Kendal (North West)"
+  },
+  {
+    "id": "KennetUK",
+    "label": "Kennet (South West)"
+  },
+  {
+    "id": "KensingtonandChelseaUK",
+    "label": "Kensington and Chelsea (London)"
+  },
+  {
+    "id": "ketteringUKfreecycle",
+    "label": "Kettering (East Midlands)"
+  },
+  {
+    "id": "KilmarnockUK",
+    "label": "Kilmarnock (Scotland)"
+  },
+  {
+    "id": "freecyclekingslynn",
+    "label": "King&apos;s Lynn (East)"
+  },
+  {
+    "id": "KingstonUK",
+    "label": "Kingston-upon-Thames (London)"
+  },
+  {
+    "id": "KintyreUK",
+    "label": "Kintyre (Scotland)"
+  },
+  {
+    "id": "KirriemuirUK",
+    "label": "Kirriemuir (Scotland)"
+  },
+  {
+    "id": "KnutsfordUK",
+    "label": "Knutsford (North West)"
+  },
+  {
+    "id": "LambethUK",
+    "label": "Lambeth (London)"
+  },
+  {
+    "id": "LanarkUK",
+    "label": "Lanark (Scotland)"
+  },
+  {
+    "id": "lancasterfreecycleuk",
+    "label": "Lancaster (North West)"
+  },
+  {
+    "id": "freecyclelancing",
+    "label": "Lancing (South East)"
+  },
+  {
+    "id": "LauncestonUK",
+    "label": "Launceston (South West)"
+  },
+  {
+    "id": "LeamingtonSpaUK",
+    "label": "Leamington Spa &amp; Warwick (West Midlands)"
+  },
+  {
+    "id": "LeatherheadUK",
+    "label": "Leatherhead (South East)"
+  },
+  {
+    "id": "LechladeFairford",
+    "label": "Lechlade and Fairford (South West)"
+  },
+  {
+    "id": "freecycleleeds",
+    "label": "Leeds (Yorkshire and the Humber)"
+  },
+  {
+    "id": "leicester-freecycle",
+    "label": "Leicester (East Midlands)"
+  },
+  {
+    "id": "LeighUK",
+    "label": "Leigh (North West)"
+  },
+  {
+    "id": "leighonseaUK",
+    "label": "Leigh on sea UK (East)"
+  },
+  {
+    "id": "freecycleleighton-buzzard",
+    "label": "Leighton Buzzard (East)"
+  },
+  {
+    "id": "letchworth",
+    "label": "Letchworth (East)"
+  },
+  {
+    "id": "freecyclelewesdistrict",
+    "label": "Lewes District (South East)"
+  },
+  {
+    "id": "LewishamUK",
+    "label": "Lewisham (London)"
+  },
+  {
+    "id": "Leyland",
+    "label": "Leyland (North West)"
+  },
+  {
+    "id": "LibraryUK",
+    "label": "LibraryUK (London)"
+  },
+  {
+    "id": "LichfieldUK",
+    "label": "Lichfield (West Midlands)"
+  },
+  {
+    "id": "LincolnUK",
+    "label": "Lincoln (East Midlands)"
+  },
+  {
+    "id": "freecyclelinlithgow",
+    "label": "Linlithgow (Scotland)"
+  },
+  {
+    "id": "LintonUK",
+    "label": "Linton UK (East)"
+  },
+  {
+    "id": "LittlehamptonUK",
+    "label": "Littlehampton (South East)"
+  },
+  {
+    "id": "LiverpoolfreecycleNetwork",
+    "label": "Liverpool (North West)"
+  },
+  {
+    "id": "LivingstonUK",
+    "label": "Livingston (Scotland)"
+  },
+  {
+    "id": "LlandrindodFreecycle",
+    "label": "Llandrindod (Wales)"
+  },
+  {
+    "id": "Llanidloes",
+    "label": "Llanidloes (Wales)"
+  },
+  {
+    "id": "LleynUK",
+    "label": "Lleyn Peninsula (Wales)"
+  },
+  {
+    "id": "Loughborough_Freecycle",
+    "label": "Loughborough (East Midlands)"
+  },
+  {
+    "id": "Loughton",
+    "label": "Loughton (East)"
+  },
+  {
+    "id": "LouthUK",
+    "label": "Louth (East Midlands)"
+  },
+  {
+    "id": "LudlowandLeominster",
+    "label": "Ludlow &amp; Leominster (West Midlands)"
+  },
+  {
+    "id": "FreecycleLuton",
+    "label": "Luton (East)"
+  },
+  {
+    "id": "lutterworth_freecycle",
+    "label": "Lutterworth (East Midlands)"
+  },
+  {
+    "id": "MablethorpeUK",
+    "label": "Mablethorpe (East Midlands)"
+  },
+  {
+    "id": "MacclesfieldUK",
+    "label": "Macclesfield (North West)"
+  },
+  {
+    "id": "MachynllethUK",
+    "label": "Machynlleth (Wales)"
+  },
+  {
+    "id": "magherafelt_district_freecycle",
+    "label": "Magherafelt District Freecycle (Northern Ireland)"
+  },
+  {
+    "id": "MaidstoneUK",
+    "label": "Maidstone (South East)"
+  },
+  {
+    "id": "MalvernHillsUK",
+    "label": "Malvern Hills (West Midlands)"
+  },
+  {
+    "id": "CityofManchesterUKFreecycle",
+    "label": "Manchester (North West)"
+  },
+  {
+    "id": "mansfield_freecycle",
+    "label": "Mansfield (East Midlands)"
+  },
+  {
+    "id": "MarketDraytonandWhitchurchFreecycle",
+    "label": "Market Drayton Whitchurch (West Midlands)"
+  },
+  {
+    "id": "MarketHarboroughUK",
+    "label": "Market Harborough (East Midlands)"
+  },
+  {
+    "id": "MarketRasenUK",
+    "label": "Market Rasen UK (East Midlands)"
+  },
+  {
+    "id": "MarlowUK",
+    "label": "Marlow (South East)"
+  },
+  {
+    "id": "matlockfreecycle",
+    "label": "Matlock (East Midlands)"
+  },
+  {
+    "id": "MelbourneUK",
+    "label": "Melbourne (East Midlands)"
+  },
+  {
+    "id": "MelkshamUK",
+    "label": "Melksham (South West)"
+  },
+  {
+    "id": "MeltonMowbrayUK",
+    "label": "Melton Mowbray (East Midlands)"
+  },
+  {
+    "id": "MerthyrTydfil",
+    "label": "Merthyr Tydfil (Wales)"
+  },
+  {
+    "id": "MertonUK",
+    "label": "Merton (London)"
+  },
+  {
+    "id": "middlesbroughfreecycle",
+    "label": "Middlesbrough (North East)"
+  },
+  {
+    "id": "MidhurstUK",
+    "label": "Midhurst (South East)"
+  },
+  {
+    "id": "Freecycle-Midlothian",
+    "label": "Midlothian (Scotland)"
+  },
+  {
+    "id": "MidsomerNorton",
+    "label": "Midsomer Norton (South West)"
+  },
+  {
+    "id": "MiltonKeynesUK",
+    "label": "Milton Keynes (South East)"
+  },
+  {
+    "id": "MineheadUK",
+    "label": "Minehead (South West)"
+  },
+  {
+    "id": "Mirfield",
+    "label": "Mirfield (Yorkshire and the Humber)"
+  },
+  {
+    "id": "MonmouthUK",
+    "label": "Monmouth (Wales)"
+  },
+  {
+    "id": "montrose",
+    "label": "Montrose (Scotland)"
+  },
+  {
+    "id": "morayfreecycle",
+    "label": "Moray (Scotland)"
+  },
+  {
+    "id": "MorecambeUK",
+    "label": "Morecambe (North West)"
+  },
+  {
+    "id": "Morley",
+    "label": "Morley (Yorkshire and the Humber)"
+  },
+  {
+    "id": "MorpethUK",
+    "label": "Morpeth (North East)"
+  },
+  {
+    "id": "mostonUK",
+    "label": "Moston UK (North West)"
+  },
+  {
+    "id": "MuseumFreecycleUK",
+    "label": "Museum Freecycle UK (London)"
+  },
+  {
+    "id": "NWLeicestershirefreecycle",
+    "label": "NW Leicestershire (East Midlands)"
+  },
+  {
+    "id": "CreweNantwichUK",
+    "label": "Nantwich (North West)"
+  },
+  {
+    "id": "NeathPortTalbotUKFreecycle",
+    "label": "Neath Port Talbot (Wales)"
+  },
+  {
+    "id": "newforesteast-freecycle",
+    "label": "New Forest East (South East)"
+  },
+  {
+    "id": "NewForestNorth",
+    "label": "New Forest North (South East)"
+  },
+  {
+    "id": "NewForestWestUK",
+    "label": "New Forest West (South East)"
+  },
+  {
+    "id": "NewarkUK",
+    "label": "Newark-on-Trent (East Midlands)"
+  },
+  {
+    "id": "newburyfreecycle",
+    "label": "Newbury (South East)"
+  },
+  {
+    "id": "NewcastleNI",
+    "label": "Newcastle Northern Ireland (Northern Ireland)"
+  },
+  {
+    "id": "toon",
+    "label": "Newcastle-upon-Tyne (North East)"
+  },
+  {
+    "id": "NewhamUK",
+    "label": "Newham (London)"
+  },
+  {
+    "id": "NewmarketUK",
+    "label": "Newmarket (East)"
+  },
+  {
+    "id": "Freecycle-Newport-SW",
+    "label": "Newport (Wales)"
+  },
+  {
+    "id": "newportshropshire",
+    "label": "Newport (West Midlands)"
+  },
+  {
+    "id": "NewquayUK",
+    "label": "Newquay (South West)"
+  },
+  {
+    "id": "NewtonAycliffeUK",
+    "label": "Newton Aycliffe (North East)"
+  },
+  {
+    "id": "NorthDenbighshireUK",
+    "label": "North Denbighshire (Wales)"
+  },
+  {
+    "id": "Northdorsetfreecycle",
+    "label": "North Dorset (South West)"
+  },
+  {
+    "id": "NorthDown-ArdsPeninsula_Freecycle",
+    "label": "North Down &amp; Ards Peninsula (Northern Ireland)"
+  },
+  {
+    "id": "NorthLakesUK",
+    "label": "North Lakes (North West)"
+  },
+  {
+    "id": "FreecycleNorthNorfolk",
+    "label": "North Norfolk (East)"
+  },
+  {
+    "id": "NorthSomersetUK",
+    "label": "North Somerset (South West)"
+  },
+  {
+    "id": "North_Tyneside_freecycle",
+    "label": "North Tyneside (North East)"
+  },
+  {
+    "id": "ThirskNorthAllertonUK",
+    "label": "Northallerton &amp; Thirsk (Yorkshire and the Humber)"
+  },
+  {
+    "id": "Northampton_East_Freecycle",
+    "label": "Northampton East (East Midlands)"
+  },
+  {
+    "id": "NptonNorthCentralFreecycle",
+    "label": "Northampton North and Central (East Midlands)"
+  },
+  {
+    "id": "NorthamptonSouthFreecycle",
+    "label": "Northampton South (East Midlands)"
+  },
+  {
+    "id": "northamptonwestfreecycle",
+    "label": "Northampton West (East Midlands)"
+  },
+  {
+    "id": "NorthwestSutherlandUK",
+    "label": "Northwest Sutherland (Scotland)"
+  },
+  {
+    "id": "norwichukfreecycle",
+    "label": "Norwich (East)"
+  },
+  {
+    "id": "FreecycleNottingham",
+    "label": "Nottingham (East Midlands)"
+  },
+  {
+    "id": "NB-Freecycle",
+    "label": "Nuneaton &amp; Bedworth (West Midlands)"
+  },
+  {
+    "id": "OadbyandWigstonFreecycle",
+    "label": "Oadby &amp; Wigston (East Midlands)"
+  },
+  {
+    "id": "ObanNorthArgyllUK",
+    "label": "Oban And North Argyll (Scotland)"
+  },
+  {
+    "id": "OldhamUK",
+    "label": "Oldham (North West)"
+  },
+  {
+    "id": "OlneyUK",
+    "label": "Olney (South East)"
+  },
+  {
+    "id": "omagh",
+    "label": "Omagh Northern Ireland (Northern Ireland)"
+  },
+  {
+    "id": "orkneyfreecycle_group",
+    "label": "Orkney Islands (Scotland)"
+  },
+  {
+    "id": "Oswestry_Freecycle",
+    "label": "Oswestry (West Midlands)"
+  },
+  {
+    "id": "OtleyUK",
+    "label": "Otley (Yorkshire and the Humber)"
+  },
+  {
+    "id": "OxfordUK",
+    "label": "Oxford (South East)"
+  },
+  {
+    "id": "OxtedUK",
+    "label": "Oxted (South East)"
+  },
+  {
+    "id": "PaddockWood",
+    "label": "Paddock Wood (South East)"
+  },
+  {
+    "id": "WadebridgeUK",
+    "label": "Padstow and Wadebridge (South West)"
+  },
+  {
+    "id": "paisley-freecycle",
+    "label": "Paisley (Scotland)"
+  },
+  {
+    "id": "Peeblesshire_Freecycle",
+    "label": "Peeblesshire (Scotland)"
+  },
+  {
+    "id": "Pembrokeshire",
+    "label": "Pembrokeshire (Wales)"
+  },
+  {
+    "id": "PenrithEdenFreecycle",
+    "label": "Penrith &amp; Eden (North West)"
+  },
+  {
+    "id": "penzance-freecycle",
+    "label": "Penzance (South West)"
+  },
+  {
+    "id": "PerthSouthUKFreecycle",
+    "label": "Perth &amp; Kinross (Scotland)"
+  },
+  {
+    "id": "freecyclepboro",
+    "label": "Peterborough (East)"
+  },
+  {
+    "id": "PeterleeUK",
+    "label": "Peterlee (North East)"
+  },
+  {
+    "id": "PlymouthFreecycleUK",
+    "label": "Plymouth (South West)"
+  },
+  {
+    "id": "PocklingtonUK",
+    "label": "Pocklington (Yorkshire and the Humber)"
+  },
+  {
+    "id": "PontefractUK",
+    "label": "Pontefract (Yorkshire and the Humber)"
+  },
+  {
+    "id": "PooleUK",
+    "label": "Poole (South West)"
+  },
+  {
+    "id": "PorthmadogFreeCycle",
+    "label": "Porthmadog (Wales)"
+  },
+  {
+    "id": "portishead",
+    "label": "Portishead Somerset (South West)"
+  },
+  {
+    "id": "PortsladeUK",
+    "label": "Portslade (South East)"
+  },
+  {
+    "id": "Portsmouth_Freecycle",
+    "label": "Portsmouth (South East)"
+  },
+  {
+    "id": "PottersBar",
+    "label": "Potters Bar (East)"
+  },
+  {
+    "id": "PresteigneUK",
+    "label": "Presteigne (Wales)"
+  },
+  {
+    "id": "prestonfreecycle",
+    "label": "Preston (North West)"
+  },
+  {
+    "id": "freecyclepurbeck",
+    "label": "Purbeck (South West)"
+  },
+  {
+    "id": "quedgeley-kingswayUK",
+    "label": "Quedgeley and Kingsway UK (South West)"
+  },
+  {
+    "id": "radcliffe",
+    "label": "Radcliffe Greater Manchester (North West)"
+  },
+  {
+    "id": "rayleighfreecycle",
+    "label": "Rayleigh (East)"
+  },
+  {
+    "id": "ReadingUK",
+    "label": "Reading UK (South East)"
+  },
+  {
+    "id": "RedbridgeUK",
+    "label": "Redbridge (London)"
+  },
+  {
+    "id": "redcar-cleveland-freecycle",
+    "label": "Redcar &amp; Cleveland (North East)"
+  },
+  {
+    "id": "redditch-freecycle",
+    "label": "Redditch (West Midlands)"
+  },
+  {
+    "id": "ReigateUK",
+    "label": "Reigate (South East)"
+  },
+  {
+    "id": "renfrew",
+    "label": "Renfrew Scotland (Scotland)"
+  },
+  {
+    "id": "RetfordWorksopUK",
+    "label": "Retford &amp; Worksop (East Midlands)"
+  },
+  {
+    "id": "RhonddaCynonTaffFreecycle",
+    "label": "Rhondda Cynon Taff (Wales)"
+  },
+  {
+    "id": "ribblevalleyfreecycle",
+    "label": "Ribble Valley (North West)"
+  },
+  {
+    "id": "RichmondUponThamesUK",
+    "label": "Richmond-upon-Thames (London)"
+  },
+  {
+    "id": "freecycle_rickmansworth",
+    "label": "Rickmansworth (East)"
+  },
+  {
+    "id": "riponNYFreecycle",
+    "label": "Ripon (Yorkshire and the Humber)"
+  },
+  {
+    "id": "Rochdalefreecycle",
+    "label": "Rochdale (North West)"
+  },
+  {
+    "id": "romseyfreecycle",
+    "label": "Romsey (South East)"
+  },
+  {
+    "id": "RossendaleUK",
+    "label": "Rossendale (North West)"
+  },
+  {
+    "id": "Rotherham_Freecycle",
+    "label": "Rotherham (Yorkshire and the Humber)"
+  },
+  {
+    "id": "rothwell-desboroughfreecycle",
+    "label": "Rothwell Desborough (East Midlands)"
+  },
+  {
+    "id": "RowleyRegisUKFreecycle",
+    "label": "Rowley Regis (West Midlands)"
+  },
+  {
+    "id": "RoxburghshireUK",
+    "label": "Roxburghshire (Scotland)"
+  },
+  {
+    "id": "RoystonUK",
+    "label": "Royston (East)"
+  },
+  {
+    "id": "RuberyandFrankleyUK",
+    "label": "Rubery and Frankley (West Midlands)"
+  },
+  {
+    "id": "rugbyfreecycle",
+    "label": "Rugby (West Midlands)"
+  },
+  {
+    "id": "rugeleyfreecycle",
+    "label": "Rugeley (West Midlands)"
+  },
+  {
+    "id": "runcornfreecycle",
+    "label": "RuncornUK (North West)"
+  },
+  {
+    "id": "runnymede_freecycle",
+    "label": "Runnymede (South East)"
+  },
+  {
+    "id": "rushdenhighamfreecycle",
+    "label": "Rushden And Higham Ferrers (East Midlands)"
+  },
+  {
+    "id": "Ruthin",
+    "label": "Ruthin (Wales)"
+  },
+  {
+    "id": "rutlandfreecycle",
+    "label": "Rutland (East Midlands)"
+  },
+  {
+    "id": "Rye-EasternRother-UK",
+    "label": "Rye &amp; Eastern Rother (South East)"
+  },
+  {
+    "id": "ryedale_freecycle",
+    "label": "Ryedale (Yorkshire and the Humber)"
+  },
+  {
+    "id": "SaddleworthUK",
+    "label": "Saddleworth (North West)"
+  },
+  {
+    "id": "Freecycle_SaffronWalden",
+    "label": "Saffron Walden (East)"
+  },
+  {
+    "id": "CityofSalford_Freecycle",
+    "label": "Salford (North West)"
+  },
+  {
+    "id": "SalisburyUK",
+    "label": "Salisbury (South West)"
+  },
+  {
+    "id": "SaltashUK",
+    "label": "Saltash (South West)"
+  },
+  {
+    "id": "SaltcoatsUK",
+    "label": "Saltcoats (Scotland)"
+  },
+  {
+    "id": "sandypottonUK",
+    "label": "Sandy and Potton UK (East)"
+  },
+  {
+    "id": "Sawston",
+    "label": "Sawston (East)"
+  },
+  {
+    "id": "scarborough-freecycle",
+    "label": "Scarborough (Yorkshire and the Humber)"
+  },
+  {
+    "id": "scunthorpefreecycle",
+    "label": "Scunthorpe (Yorkshire and the Humber)"
+  },
+  {
+    "id": "SedgefieldTrimdons",
+    "label": "Sedgefield and Trimdons (North East)"
+  },
+  {
+    "id": "SelbyUK",
+    "label": "Selby (Yorkshire and the Humber)"
+  },
+  {
+    "id": "SelstonUK",
+    "label": "Selston UK (East Midlands)"
+  },
+  {
+    "id": "freecycle-sevenoaks",
+    "label": "Sevenoaks (South East)"
+  },
+  {
+    "id": "SheffieldUK",
+    "label": "Sheffield City (Yorkshire and the Humber)"
+  },
+  {
+    "id": "SheffordandHenlow",
+    "label": "Shefford and Henlow (East)"
+  },
+  {
+    "id": "SheptonWellsStreetUK",
+    "label": "Shepton Mallet, Wells &amp; Street (South West)"
+  },
+  {
+    "id": "freecycleshetland",
+    "label": "Shetland (Scotland)"
+  },
+  {
+    "id": "shrewsbury_freecycle",
+    "label": "Shrewsbury (West Midlands)"
+  },
+  {
+    "id": "SilsdenUK",
+    "label": "Silsden (Yorkshire and the Humber)"
+  },
+  {
+    "id": "sittingbourne",
+    "label": "Sittingbourne (South East)"
+  },
+  {
+    "id": "skelmersdale",
+    "label": "Skelmersdale Lancashire (North West)"
+  },
+  {
+    "id": "SkiptonCravenUK",
+    "label": "Skipton &amp; Craven (Yorkshire and the Humber)"
+  },
+  {
+    "id": "skyelochalshfreecycle",
+    "label": "Skye &amp; Lochalsh (Scotland)"
+  },
+  {
+    "id": "Sleaford",
+    "label": "Sleaford (East Midlands)"
+  },
+  {
+    "id": "sloughfreecycle",
+    "label": "Slough (South East)"
+  },
+  {
+    "id": "smethwick",
+    "label": "Smethwick West Midlands (West Midlands)"
+  },
+  {
+    "id": "SnodlandUK",
+    "label": "Snodland (South East)"
+  },
+  {
+    "id": "freecycle_solihull",
+    "label": "Solihull (West Midlands)"
+  },
+  {
+    "id": "SouthBrentUK",
+    "label": "South Brent (Ivybridge, Totnes) (South West)"
+  },
+  {
+    "id": "SouthGloucestershireUK",
+    "label": "South Gloucestershire (South West)"
+  },
+  {
+    "id": "SouthHollandFreecycle",
+    "label": "South Holland (East Midlands)"
+  },
+  {
+    "id": "SouthLakesFreecycle",
+    "label": "South Lakes (North West)"
+  },
+  {
+    "id": "southnorfolkfreecycle",
+    "label": "South Norfolk (East)"
+  },
+  {
+    "id": "QueensferryUK",
+    "label": "South Queensferry (Scotland)"
+  },
+  {
+    "id": "SouthShieldsUK",
+    "label": "South Shields (North East)"
+  },
+  {
+    "id": "SouthamUK",
+    "label": "Southam (West Midlands)"
+  },
+  {
+    "id": "southamptonfreecycle",
+    "label": "Southampton (South East)"
+  },
+  {
+    "id": "SouthendUK",
+    "label": "Southend-on-Sea (East)"
+  },
+  {
+    "id": "freecycle-southport",
+    "label": "Southport (North West)"
+  },
+  {
+    "id": "SouthwarkUK",
+    "label": "Southwark (London)"
+  },
+  {
+    "id": "SpelthorneUK",
+    "label": "Spelthorne (South East)"
+  },
+  {
+    "id": "StAlbansfreecycle",
+    "label": "St Albans (East)"
+  },
+  {
+    "id": "freecyclesthelensborough",
+    "label": "St Helens Borough (North West)"
+  },
+  {
+    "id": "StAustellUK",
+    "label": "St. Austell (South West)"
+  },
+  {
+    "id": "stneotsfreecycle",
+    "label": "St. Neots (East)"
+  },
+  {
+    "id": "stafford-freecycle",
+    "label": "Stafford (West Midlands)"
+  },
+  {
+    "id": "MoorlandsUK",
+    "label": "Staffordshire Moorlands (West Midlands)"
+  },
+  {
+    "id": "stevenagefreecycle",
+    "label": "Stevenage (East)"
+  },
+  {
+    "id": "stirlingcityfreecycle",
+    "label": "Stirling City (Scotland)"
+  },
+  {
+    "id": "StockportFreecycle",
+    "label": "Stockport (North West)"
+  },
+  {
+    "id": "stocktonfreecycle",
+    "label": "Stockton on Tees (North East)"
+  },
+  {
+    "id": "newcastleandstoke-on-trentfreecycle",
+    "label": "Stoke-on-Trent (West Midlands)"
+  },
+  {
+    "id": "Storrington",
+    "label": "Storrington-Sullington (South East)"
+  },
+  {
+    "id": "stowmarket_freecycle",
+    "label": "Stowmarket (East)"
+  },
+  {
+    "id": "StratforduponAvonUK",
+    "label": "Stratford-upon-Avon (West Midlands)"
+  },
+  {
+    "id": "StreetlyUK",
+    "label": "Streetly UK (West Midlands)"
+  },
+  {
+    "id": "freecyclestrood",
+    "label": "Strood (South East)"
+  },
+  {
+    "id": "Stroudfreecycle",
+    "label": "Stroud (South West)"
+  },
+  {
+    "id": "SudburyUK",
+    "label": "Sudbury &amp; Hadleigh (East)"
+  },
+  {
+    "id": "sunderlandfreecycle",
+    "label": "Sunderland (North East)"
+  },
+  {
+    "id": "SurreyHeathUK",
+    "label": "Surrey Heath (South East)"
+  },
+  {
+    "id": "SuttonUK",
+    "label": "Sutton (London)"
+  },
+  {
+    "id": "SwadlincoteFreeCycle",
+    "label": "Swadlincote (East Midlands)"
+  },
+  {
+    "id": "Swanley",
+    "label": "Swanley (South East)"
+  },
+  {
+    "id": "SwanseaUK",
+    "label": "Swansea (Wales)"
+  },
+  {
+    "id": "SwindonUK",
+    "label": "Swindon (South West)"
+  },
+  {
+    "id": "Tadley",
+    "label": "Tadley (South East)"
+  },
+  {
+    "id": "freecycle-tameside",
+    "label": "Tameside (North West)"
+  },
+  {
+    "id": "TamworthUK",
+    "label": "Tamworth (West Midlands)"
+  },
+  {
+    "id": "TauntonUK",
+    "label": "Taunton (South West)"
+  },
+  {
+    "id": "TavistockUK",
+    "label": "Tavistock, Okehampton &amp; Dartmoor (South West)"
+  },
+  {
+    "id": "TeesdaleUK",
+    "label": "Teesdale (North East)"
+  },
+  {
+    "id": "Teignbridge_Freecycle",
+    "label": "Teignbridge (South West)"
+  },
+  {
+    "id": "TelfordFreecycle",
+    "label": "Telford (West Midlands)"
+  },
+  {
+    "id": "tewkesburyfreecycle",
+    "label": "Tewkesbury (South West)"
+  },
+  {
+    "id": "Thanet_freecycle",
+    "label": "Thanet (South East)"
+  },
+  {
+    "id": "TheDeepings",
+    "label": "The Deepings (East Midlands)"
+  },
+  {
+    "id": "Thurrock_West_Freecycle",
+    "label": "Thurrock(West) - Grays, South Ockendon &amp; Tilbury (East)"
+  },
+  {
+    "id": "TickhillBawtryBlythUK",
+    "label": "Tickhill Bawtry And Blyth (East Midlands)"
+  },
+  {
+    "id": "TidworthFreecycle",
+    "label": "Tidworth Freecycle (South West)"
+  },
+  {
+    "id": "Tiverton",
+    "label": "Tiverton (South West)"
+  },
+  {
+    "id": "TonbridgeFreecycle",
+    "label": "Tonbridge (South East)"
+  },
+  {
+    "id": "TorbayUK",
+    "label": "Torbay (South West)"
+  },
+  {
+    "id": "torfaenfreecycle",
+    "label": "Torfaen (Wales)"
+  },
+  {
+    "id": "TorpointLooeLiskeardFreecycle",
+    "label": "Torpoint, Looe &amp; Liskeard (South West)"
+  },
+  {
+    "id": "towcesterfreecycle",
+    "label": "Towcester (East Midlands)"
+  },
+  {
+    "id": "TowerHamletsUK",
+    "label": "Tower Hamlets (London)"
+  },
+  {
+    "id": "traffordfreecycle",
+    "label": "Trafford (North West)"
+  },
+  {
+    "id": "Tring",
+    "label": "Tring (East)"
+  },
+  {
+    "id": "TrowbridgeUK",
+    "label": "Trowbridge (South West)"
+  },
+  {
+    "id": "freecycletruro",
+    "label": "Truro (South West)"
+  },
+  {
+    "id": "FreecycleTunbridgeWells",
+    "label": "Tunbridge Wells (South East)"
+  },
+  {
+    "id": "TywynDolgellauUK",
+    "label": "Tywyn-Dolgellau (Wales)"
+  },
+  {
+    "id": "UckfieldFreecycle",
+    "label": "Uckfield (South East)"
+  },
+  {
+    "id": "ulverston",
+    "label": "Ulverston (North West)"
+  },
+  {
+    "id": "UttoxeterUK",
+    "label": "Uttoxeter (West Midlands)"
+  },
+  {
+    "id": "valeroyalfreecycle",
+    "label": "Vale Royal (North West)"
+  },
+  {
+    "id": "ValeofGlamorganUK",
+    "label": "Vale of Glamorgan (Wales)"
+  },
+  {
+    "id": "ValeWhiteHorseUK",
+    "label": "Vale of the White Horse (South East)"
+  },
+  {
+    "id": "freecycle_wakefield",
+    "label": "Wakefield (Yorkshire and the Humber)"
+  },
+  {
+    "id": "Walderslade_Freecycle",
+    "label": "Walderslade (South East)"
+  },
+  {
+    "id": "WallingfordUK",
+    "label": "Wallingford (South East)"
+  },
+  {
+    "id": "WallsendUK",
+    "label": "Wallsend (North East)"
+  },
+  {
+    "id": "walsall_freecycle",
+    "label": "Walsall (West Midlands)"
+  },
+  {
+    "id": "WalthamAbbey",
+    "label": "Waltham Abbey (East)"
+  },
+  {
+    "id": "WalthamForestUK",
+    "label": "Waltham Forest (London)"
+  },
+  {
+    "id": "WandsworthUK",
+    "label": "Wandsworth (London)"
+  },
+  {
+    "id": "freecyclewarminster",
+    "label": "Warminster (South West)"
+  },
+  {
+    "id": "WarringtonFreecycle",
+    "label": "Warrington (North West)"
+  },
+  {
+    "id": "WashingtonUK",
+    "label": "Washington, Tyne &amp; Wear (North East)"
+  },
+  {
+    "id": "freecycle_watford",
+    "label": "Watford (East)"
+  },
+  {
+    "id": "waveneyfreecycle",
+    "label": "Waveney (East)"
+  },
+  {
+    "id": "wedmorecheddarfreecycle",
+    "label": "Wedmore &amp; Cheddar (South West)"
+  },
+  {
+    "id": "wellingboroughfreecycle",
+    "label": "Wellingborough (East Midlands)"
+  },
+  {
+    "id": "WNM_Freecycle",
+    "label": "Welshpool, Newtown and Montgomery (Wales)"
+  },
+  {
+    "id": "wgcfreecycle",
+    "label": "Welwyn Garden City (East)"
+  },
+  {
+    "id": "WestBromwichUK",
+    "label": "West Bromwich, Wednesbury &amp; Tipton (West Midlands)"
+  },
+  {
+    "id": "WestFifeScotland",
+    "label": "West Fife (Scotland)"
+  },
+  {
+    "id": "westkingsdown_freecycle",
+    "label": "West Kingsdown (South East)"
+  },
+  {
+    "id": "wosfreecycle",
+    "label": "Westcliff-on-Sea (East)"
+  },
+  {
+    "id": "WesternIslesUK",
+    "label": "Western Isles (Outer Hebrides) (Scotland)"
+  },
+  {
+    "id": "WestlakesUK",
+    "label": "Westlakes (North West)"
+  },
+  {
+    "id": "WestminsterUK",
+    "label": "Westminster (London)"
+  },
+  {
+    "id": "weyportdor_freecycle",
+    "label": "Weymouth, Portland &amp; Dorchester (South West)"
+  },
+  {
+    "id": "WheatleyThameUK",
+    "label": "Wheatley &amp; Thame (South East)"
+  },
+  {
+    "id": "Whitstable",
+    "label": "Whitstable (South East)"
+  },
+  {
+    "id": "Wick",
+    "label": "Wick (Scotland)"
+  },
+  {
+    "id": "WickfordUK",
+    "label": "Wickford (East)"
+  },
+  {
+    "id": "WidnesUK",
+    "label": "Widnes (North West)"
+  },
+  {
+    "id": "wiganfreecycle",
+    "label": "Wigan (North West)"
+  },
+  {
+    "id": "willenhall",
+    "label": "Willenhall (West Midlands)"
+  },
+  {
+    "id": "WilmslowUK",
+    "label": "Wilmslow (North West)"
+  },
+  {
+    "id": "freecycle-wimborneminster",
+    "label": "Wimborne Minster (South West)"
+  },
+  {
+    "id": "wincantonbrutoncastlecaryUK",
+    "label": "Wincanton Bruton Castle Cary (South West)"
+  },
+  {
+    "id": "WinchesterUK",
+    "label": "Winchester (South East)"
+  },
+  {
+    "id": "windsor-maidenhead-freecycle",
+    "label": "Windsor &amp; Maidenhead (South East)"
+  },
+  {
+    "id": "freecyclewirral",
+    "label": "Wirral (North West)"
+  },
+  {
+    "id": "WitneyUK",
+    "label": "Witney (South East)"
+  },
+  {
+    "id": "WixamsUK",
+    "label": "Wixams (East)"
+  },
+  {
+    "id": "wokingfreecycle",
+    "label": "Woking (South East)"
+  },
+  {
+    "id": "WokinghamFreecycle",
+    "label": "Wokingham (South East)"
+  },
+  {
+    "id": "wolvesfreecycle",
+    "label": "Wolverhampton (West Midlands)"
+  },
+  {
+    "id": "WoodhallSpaUK",
+    "label": "Woodhall Spa (East Midlands)"
+  },
+  {
+    "id": "WoodleyFreecycle",
+    "label": "Woodley - Earley (South East)"
+  },
+  {
+    "id": "worcester-freecycle",
+    "label": "Worcester (West Midlands)"
+  },
+  {
+    "id": "workington",
+    "label": "Workington (North West)"
+  },
+  {
+    "id": "worthing-freecycle",
+    "label": "Worthing (South East)"
+  },
+  {
+    "id": "wrexhamfreecycle",
+    "label": "Wrexham (Wales)"
+  },
+  {
+    "id": "WyreForestFreecycle",
+    "label": "Wyre Forest (Bewdley, Kidderminster &amp; Stourport) (West Midlands)"
+  },
+  {
+    "id": "YeovilUK",
+    "label": "Yeovil (South West)"
+  },
+  {
+    "id": "YorkUK",
+    "label": "York (Yorkshire and the Humber)"
+  }
+]

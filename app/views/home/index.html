@@ -1,0 +1,32 @@
+<div ng-controller="HomeController as vm" class="home">
+
+  <div class="filter">
+    <h3><a href="/" title="Free Cycle">Free Cycle</a></h3>
+    <div class="form-group areas col-xs-12">
+      <label for="areas">Areas</label>
+      <div ng-dropdown-multiselect="" options="vm.areas" selected-model="vm.selectedAreas" checkboxes="true" extra-settings="vm.areasSettings" translation-texts="vm.areasTexts"></div>
+    </div>
+    <div class="form-group col-xs-12">
+      <label for="assets">Start date</label>
+      <div class="input-group date" data-provide="datepicker">
+        <input type="text" class="form-control start-date">
+        <div class="input-group-addon">
+          <span class="glyphicon glyphicon-th"></span>
+        </div>
+      </div>
+    </div>
+    <div class="form-group col-xs-12">
+      <label for="assets">End date</label>
+      <div class="input-group date" data-provide="datepicker">
+        <input type="text" class="form-control end-date">
+        <div class="input-group-addon">
+          <span class="glyphicon glyphicon-th"></span>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 text-center search">
+      <input type="submit" class="btn btn-success" ng-click="vm.fetchAllPoints()" ng-disabled="vm.isSearchDisable" value="Search" />
+    </div>
+  </div>
+
+</div>

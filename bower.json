@@ -1,0 +1,32 @@
+{
+  "name": "dhl_data_app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Leo Castro <leonardodesantos@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/devMaverickDigital/dhl_data_app",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.5",
+    "angular-click-outside": "^2.8.3",
+    "bootstrap-datepicker": "^1.6.1",
+    "bootstrap": "^3.3.6",
+    "lodash": "^4.13.1",
+    "angularjs-dropdown-multiselect": "^1.5.2",
+    "underscore": "^1.8.3"
+  },
+  "resolutions": {
+    "angular": "1.5.7",
+    "lodash": "^4.13.1"
+  }
+}
