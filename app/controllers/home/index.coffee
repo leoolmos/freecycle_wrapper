@@ -10,6 +10,8 @@ module.exports = (app) ->
 		self.allProducts = []
 		self.selectedAreas = []
 		self.areas = []
+		self.selectStartDate = ''
+		self.selectEndDate = ''
 
 		self.areasTexts =
 			buttonDefaultText: 'Select areas'
@@ -60,15 +62,13 @@ module.exports = (app) ->
 				return
 			)
 
-		# Get products
-		self.getProducts = () ->
-			dataFactory.getProducts(area, startDate, endDate).then( (products) ->
+		self.fetchAllProducts = () ->
+			dataFactory.getProducts(self.selectedAreas, self.selectStartDate, self.selectEndDate).then( (products) ->
 				self.allProducts = products
 			, (err) ->
 				alert err
 				return
 			)
-
 
 		#////////////////////////////////////////////////////////////
 		# Start

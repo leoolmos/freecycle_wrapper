@@ -54,8 +54,6 @@ module.exports = (app) ->
 				callbackGetAreas()
 				return
 
-
-
 		getGroups( () ->
 			getAreas( () ->
 				sortResults allAreas, 'label', true, (allAreas) ->
@@ -76,19 +74,16 @@ module.exports = (app) ->
 
 		allProducts = []
 
-		area = ''
-		date_start = ''
-		date_end = ''
-		resultsperpage = 50
+		areas = req.body.area
+		resultsperpage = 5
 
 		patternId = new RegExp('/posts/(.*)/')
 		patternDate = new RegExp('<span>.*<\/span> (.*)')
 
 		pages = ''
 		currentPage = 1
-		area = req.body.area
 
-		getUrl = ->
+		getUrl = (area) ->
 			'https://groups.freecycle.org/group/' + area + '/posts/search?page=' + currentPage + '&resultsperpage=' + resultsperpage + '&showall=off&include_offers=on&include_wanteds=off&include_receiveds=off&include_takens=off&date_start=' + date_start + '&date_end=' + date_end
 
 		checkImage = (url, callbackCheckImage) ->
@@ -119,15 +114,16 @@ module.exports = (app) ->
 				}
 
 				callbackGetDetails details
-				
 
 		fetchProducts = (body, callbackFetchProducts) ->
 			$ = cheerio.load(body)
 			async.eachSeries $('tr'), ((el, callbackLines) ->
+				area = $('#content h2 a').html()
 				link = $(el).children('td:nth-child(2)').children('a').attr('href')
 				name = $(el).children('td:nth-child(2)').children('a').html()
 				getDetails link, (details) ->
 					allProducts.push
+						area: area
 						link: link
 						date: details.date
 						name: name
@@ -142,27 +138,26 @@ module.exports = (app) ->
 				return
 			return
 
-		fetchUrl = (url, callbackFetchUrl) ->
-			request url, (error, response, body) ->
-				$ = cheerio.load(body)
-				if currentPage == 1
+		init = () ->
+			async.eachSeries areas, ((area, callbackAreas) ->
+				console.log "Starting " + area.label
+				request getUrl(area.id), (error, response, body) ->
+					$ = cheerio.load(body)
 					pages = $('a[href^=\'?page\']').not(':has("span")')
-				currentPage++
-				fetchProducts body, ->
-					callbackFetchUrl()
-					return
-				return
-			return
+					pagesTotal = parseInt(pages.length + 1)
+					page = 0
 
-		checkPages = () ->
-			if pages
-				console.log currentPage
-				console.log pages.length + 1
-				if currentPage <= pages.length + 1
-					fetchUrl getUrl(currentPage), checkPages
-				else
-					res.jsonp allProducts
-			return
+					async.eachSeries Array(pagesTotal), ((page, callbackPages) ->
+						request getUrl(area.id), (error, response, body) ->
+							currentPage++
+							fetchProducts body, () ->
+								callbackPages()
+					), () ->
+						callbackAreas()
+						return
+			), () ->
+				console.log("Finish all areas")
+				res.jsonp allProducts
 
-		fetchUrl getUrl(currentPage), checkPages
+		init();
 
