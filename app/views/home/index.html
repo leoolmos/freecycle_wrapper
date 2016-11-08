@@ -1,32 +1,62 @@
 <div ng-controller="HomeController as vm" class="home">
 
-  <div class="filter">
-    <h3><a href="/" title="Free Cycle">Free Cycle</a></h3>
-    <div class="form-group areas col-xs-12">
-      <label for="areas">Areas</label>
-      <div ng-dropdown-multiselect="" options="vm.areas" selected-model="vm.selectedAreas" checkboxes="true" extra-settings="vm.areasSettings" translation-texts="vm.areasTexts"></div>
-    </div>
-    <div class="form-group col-xs-12">
-      <label for="assets">Start date</label>
-      <div class="input-group date" data-provide="datepicker">
-        <input type="text" class="form-control start-date">
-        <div class="input-group-addon">
-          <span class="glyphicon glyphicon-th"></span>
+  <div class="container">
+
+    <div class="row">
+      <div class="filter">
+        <h3><a href="/" title="Free Cycle">Free Cycle</a></h3>
+        <div class="form-group areas col-xs-12">
+          <label for="areas">Areas</label>
+          <div ng-dropdown-multiselect="" options="vm.areas" selected-model="vm.selectedAreas" checkboxes="true" extra-settings="vm.areasSettings" translation-texts="vm.areasTexts"></div>
+        </div>
+        <div class="form-group col-xs-12">
+          <label for="assets">Start date</label>
+          <div class="input-group date start" data-provide="datepicker">
+            <input type="text" class="form-control start-date">
+            <div class="input-group-addon">
+              <span class="glyphicon glyphicon-th"></span>
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-xs-12">
+          <label for="assets">End date</label>
+          <div class="input-group date end" data-provide="datepicker">
+            <input type="text" class="form-control end-date">
+            <div class="input-group-addon">
+              <span class="glyphicon glyphicon-th"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 text-center search">
+          <input type="submit" class="btn btn-success" ng-click="vm.fetchAllProducts()" ng-disabled="vm.isSearchDisable" value="Search" />
         </div>
       </div>
     </div>
-    <div class="form-group col-xs-12">
-      <label for="assets">End date</label>
-      <div class="input-group date" data-provide="datepicker">
-        <input type="text" class="form-control end-date">
-        <div class="input-group-addon">
-          <span class="glyphicon glyphicon-th"></span>
-        </div>
-      </div>
+
+    <div class="row same-height">
+      <ul class="products">
+
+        <li class="col-xs-12 col-sm-4 col-md-4 col-lg-3" ng-repeat="product in vm.allProducts">
+          <div class="box">
+            <div class="image" ng-class="{'cover': product.image}" ng-style="{'background-image': 'url(' + product.image + ')'}"><a href="{{product.link}}"></a></div>
+            <div class="details">
+              <small ng-bind-html="product.area"></small>
+              <h3 ng-bind-html="product.name"></h3>
+              <p ng-bind-html="product.description"></p>
+              <div class="bottom">
+                <span>{{product.date}}</span>
+                <a href="{{product.link}}" class="btn btn-info pull-right">Details</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
     </div>
-    <div class="col-xs-12 text-center search">
-      <input type="submit" class="btn btn-success" ng-click="vm.fetchAllProducts()" ng-disabled="vm.isSearchDisable" value="Search" />
-    </div>
+
+
   </div>
+
+
 
 </div>

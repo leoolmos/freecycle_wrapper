@@ -33,25 +33,35 @@ module.exports = (app) ->
 		# Data Functions
 		#////////////////////////////////////////////////////////////
 
+		self.getDate = (ev, format) ->
+			input = $(ev.currentTarget).find('input')
+			date = $filter('date')(ev.date, format)
+			return date
+
+
 		self.init = () ->
 			dataFactory.getAreas().success (areas) ->
 				self.areas = areas
 
-			$('.date').datepicker(
+			startDate = $('.date.start').datepicker(
 				enableOnReadonly: true
 				format: 'dd/mm/yyyy'
 				endDate: Date(Date.now())
 				immediateUpdates: true
 				autoclose: true
 			).on 'changeDate', (ev) ->
-				input = $(ev.currentTarget).find('input')
-				date = $filter('date')(ev.date, "yyyy-MM-dd")
+				endDate.datepicker("setStartDate", self.getDate(ev, "dd/MM/yyyy"))
+				self.selectStartDate = self.getDate(ev, "yyyy-MM-dd")
 
-				if input.hasClass('start-date')
-					self.selectStartDate = date
-				if input.hasClass('end-date')
-					self.selectEndDate = date
-
+			endDate = $('.date.end').datepicker(
+				enableOnReadonly: true
+				format: 'dd/mm/yyyy'
+				endDate: Date(Date.now())
+				immediateUpdates: true
+				autoclose: true
+			).on 'changeDate', (ev) ->
+				startDate.datepicker("setEndDate", self.getDate(ev, "dd/MM/yyyy"))
+				self.selectEndDate = self.getDate(ev, "yyyy-MM-dd")
 
 		# Get products
 		self.getProducts = () ->
@@ -64,7 +74,7 @@ module.exports = (app) ->
 
 		self.fetchAllProducts = () ->
 			dataFactory.getProducts(self.selectedAreas, self.selectStartDate, self.selectEndDate).then( (products) ->
-				self.allProducts = products
+				self.allProducts = products.data
 			, (err) ->
 				alert err
 				return

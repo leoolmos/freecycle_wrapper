@@ -33,6 +33,7 @@ module.exports = (grunt) ->
 					'angular-route'
 					'jquery'
 					'bootstrap'
+					'angular-sanitize'
 					'angular-click-outside'
 					'lodash'
 					'bootstrap-datepicker'
@@ -42,6 +43,7 @@ module.exports = (grunt) ->
 				dependencies:
 					'angular-route': 'angular'
 					'bootstrap': 'jquery'
+					'angular-sanitize': 'angular'
 					'angular-click-outside': 'angular'
 					'lodash': 'angular'
 					'bootstrap-datepicker': 'bootstrap'

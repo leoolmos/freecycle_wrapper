@@ -67,15 +67,15 @@ module.exports = (app) ->
 		if !req.body.area then return res.send 400, 'Area required'
 
 		if !req.body.date_start then return res.send 400, 'Start date required'
-		date_start = moment(req.body.start_date).format()
+		date_start = moment(req.body.date_start, 'YYYY-MM-DD')._i
 
 		if !req.body.date_end then return res.send 400, 'End date required'
-		date_end = moment(req.body.date_end).format()
+		date_end = moment(req.body.date_end, 'YYYY-MM-DD')._i
 
 		allProducts = []
 
 		areas = req.body.area
-		resultsperpage = 5
+		resultsperpage = 50
 
 		patternId = new RegExp('/posts/(.*)/')
 		patternDate = new RegExp('<span>.*<\/span> (.*)')
@@ -99,16 +99,18 @@ module.exports = (app) ->
 			request url, (error, response, body) ->
 				$ = cheerio.load(body)
 				dateHtml = $('#group_post #post_details div:nth-child(2)').html()
+				dateStr = patternDate.exec(dateHtml)[1]
+				date = moment(dateStr, 'DD/MM/YYYY HH:mm')._i
 				description = $($('#group_post > div')[1]).children('p').html()
 				id = patternId.exec(url)[1]
 				image = ''
 
 				if $($('#group_post > div')[1]).children('.floatLeft.textCenter').children('a').length
-					image = 'https://groups.freecycle.org/group/BromleyUK/post_image/' + id
+					image = $($('#group_post > div')[1]).children('.floatLeft.textCenter').children('a').attr('href')
 
 				details = {
 					id: id
-					date: patternDate.exec(dateHtml)[1]
+					date: date
 					description: description
 					image: image
 				}
@@ -140,7 +142,8 @@ module.exports = (app) ->
 
 		init = () ->
 			async.eachSeries areas, ((area, callbackAreas) ->
-				console.log "Starting " + area.label
+				currentPage = 1
+				console.log "Fetching " + area.label
 				request getUrl(area.id), (error, response, body) ->
 					$ = cheerio.load(body)
 					pages = $('a[href^=\'?page\']').not(':has("span")')
@@ -148,6 +151,9 @@ module.exports = (app) ->
 					page = 0
 
 					async.eachSeries Array(pagesTotal), ((page, callbackPages) ->
+						console.log "============="
+						console.log "new page"
+						console.log getUrl(area.id)
 						request getUrl(area.id), (error, response, body) ->
 							currentPage++
 							fetchProducts body, () ->

@@ -23,7 +23,8 @@
     "bootstrap": "^3.3.6",
     "lodash": "^4.13.1",
     "angularjs-dropdown-multiselect": "^1.5.2",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "angular-sanitize": "^1.5.8"
   },
   "resolutions": {
     "angular": "1.5.7",
