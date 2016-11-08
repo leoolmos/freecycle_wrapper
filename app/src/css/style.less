@@ -9,6 +9,33 @@ body {
 }
 
 .home {
+  .loading {
+    display:table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255, 0.8);
+    text-align: center;
+    z-index: 10;
+    .vcenter {
+      margin: 0 auto;
+      display:table-cell;
+      vertical-align:middle;
+      .box {
+        max-width: 300px;
+        margin: 0 auto;
+        img {
+          width: 50px;
+        }
+        .panel {
+          text-align: left;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
   .filter {
     padding: 50px 0 0 0;
     margin: 0 auto;
@@ -96,6 +123,11 @@ body {
               display: none;
             }
           }
+          a {
+            float: left;
+            width: 100%;
+            height: 150px;
+          }
         }
         .details {
           float: left;
@@ -127,5 +159,4 @@ body {
       }
     }
   }
-
 }

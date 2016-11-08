@@ -64,7 +64,7 @@ module.exports = (app) ->
 
 	app.post '/api/products', (req, res) ->
 
-		if !req.body.area then return res.send 400, 'Area required'
+		if req.body.area.length < 1 then return res.send 400, 'Area required'
 
 		if !req.body.date_start then return res.send 400, 'Start date required'
 		date_start = moment(req.body.date_start, 'YYYY-MM-DD')._i

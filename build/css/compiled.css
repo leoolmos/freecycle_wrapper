@@ -6,6 +6,33 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
+.home .loading {
+  display: table;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  z-index: 10;
+}
+.home .loading .vcenter {
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+.home .loading .vcenter .box {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.home .loading .vcenter .box img {
+  width: 50px;
+}
+.home .loading .vcenter .box .panel {
+  text-align: left;
+  margin-top: 20px;
+}
 .home .filter {
   padding: 50px 0 0 0;
   margin: 0 auto;
@@ -93,6 +120,11 @@ body {
 }
 .home .products li .box .image.cover:before {
   display: none;
+}
+.home .products li .box .image a {
+  float: left;
+  width: 100%;
+  height: 150px;
 }
 .home .products li .box .details {
   float: left;

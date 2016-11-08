@@ -13,6 +13,14 @@ module.exports = (app) ->
 		self.selectStartDate = ''
 		self.selectEndDate = ''
 
+		self.isLoadingVisible = false
+		self.loadingMessage = ''
+
+		self.isErrorVisible = false
+		self.errorMessage = ''
+
+		self.modalImage = ''
+
 		self.areasTexts =
 			buttonDefaultText: 'Select areas'
 
@@ -21,6 +29,7 @@ module.exports = (app) ->
 			scrollableHeight: '300px'
 			scrollable: true
 			externalIdProp: ''
+			selectionLimit: 2
 
 
 
@@ -30,7 +39,7 @@ module.exports = (app) ->
 
 
 		#////////////////////////////////////////////////////////////
-		# Data Functions
+		# Functions
 		#////////////////////////////////////////////////////////////
 
 		self.getDate = (ev, format) ->
@@ -38,6 +47,16 @@ module.exports = (app) ->
 			date = $filter('date')(ev.date, format)
 			return date
 
+		self.showLoading = (message) ->
+			self.isLoadingVisible = true
+			self.loadingMessage = message
+
+		self.hideLoading = () ->
+			self.isLoadingVisible = false
+
+		self.showError = (error) ->
+			self.isErrorVisible = true
+			self.errorMessage = error
 
 		self.init = () ->
 			dataFactory.getAreas().success (areas) ->
@@ -49,6 +68,7 @@ module.exports = (app) ->
 				endDate: Date(Date.now())
 				immediateUpdates: true
 				autoclose: true
+				defaultDate: ''
 			).on 'changeDate', (ev) ->
 				endDate.datepicker("setStartDate", self.getDate(ev, "dd/MM/yyyy"))
 				self.selectStartDate = self.getDate(ev, "yyyy-MM-dd")
@@ -59,24 +79,39 @@ module.exports = (app) ->
 				endDate: Date(Date.now())
 				immediateUpdates: true
 				autoclose: true
+				defaultDate: ''
 			).on 'changeDate', (ev) ->
 				startDate.datepicker("setEndDate", self.getDate(ev, "dd/MM/yyyy"))
 				self.selectEndDate = self.getDate(ev, "yyyy-MM-dd")
 
+			$('input.start-date').blur () ->
+				if !$(this).val()
+					self.selectStartDate = ''
+
+			$('input.end-date').blur () ->
+				if !$(this).val()
+					self.selectEndDate = ''
+
+
 		# Get products
 		self.getProducts = () ->
+			self.showLoading 'Fetching areas'
 			dataFactory.getAreas().then( (areas) ->
+				self.hideLoading()
 				self.areas = areas
 			, (err) ->
-				alert err
+				self.showError err
 				return
 			)
 
 		self.fetchAllProducts = () ->
+			self.isErrorVisible = false
+			self.showLoading 'Fetching products'
 			dataFactory.getProducts(self.selectedAreas, self.selectStartDate, self.selectEndDate).then( (products) ->
+				self.hideLoading()
 				self.allProducts = products.data
 			, (err) ->
-				alert err
+				self.showError err
 				return
 			)
 

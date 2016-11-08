@@ -1,4 +1,40 @@
 <div ng-controller="HomeController as vm" class="home">
+  <!-- LOADING -->
+  <div class="loading" ng-show="vm.isLoadingVisible">
+    <div class="vcenter">
+      <div class="box">
+        <img src="/images/loading.gif" alt="">
+        <h4 ng-bind-html="vm.loadingMessage"></h4>
+        <div class="panel panel-danger" ng-show="vm.isErrorVisible">
+          <div class="panel-heading">
+            <h3 class="panel-title">Error</h3>
+          </div>
+          <div class="panel-body">
+            <p ng-bind-html="vm.errorMessage"></p>
+            <p><a href="" ng-click="vm.hideLoading()">Back</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+        </div>
+        <div class="modal-body">
+          <img src="{{modalImage}}" id="imagepreview" style="max-width: 800px;" >
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
 
@@ -35,17 +71,16 @@
 
     <div class="row same-height">
       <ul class="products">
-
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-3" ng-repeat="product in vm.allProducts">
           <div class="box">
-            <div class="image" ng-class="{'cover': product.image}" ng-style="{'background-image': 'url(' + product.image + ')'}"><a href="{{product.link}}"></a></div>
+            <div class="image" ng-class="{'cover': product.image}" ng-style="{'background-image': 'url(' + product.image + ')'}"><a href="{{product.image}}" target="_blank"></a></div>
             <div class="details">
               <small ng-bind-html="product.area"></small>
               <h3 ng-bind-html="product.name"></h3>
               <p ng-bind-html="product.description"></p>
               <div class="bottom">
                 <span>{{product.date}}</span>
-                <a href="{{product.link}}" class="btn btn-info pull-right">Details</a>
+                <a href="{{product.link}}" class="btn btn-info pull-right" target="_blank">Details</a>
               </div>
             </div>
           </div>
