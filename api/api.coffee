@@ -98,7 +98,7 @@ module.exports = (app) ->
 		getDetails = (url, callbackGetDetails) ->
 			request url, (error, response, body) ->
 				$ = cheerio.load(body)
-				dateHtml = $('#group_post #post_details div:nth-child(2)').html()
+				dateHtml = $('#group_post #post_details div:last-child').html()
 				dateStr = patternDate.exec(dateHtml)[1]
 				date = moment(dateStr, 'ddd MMM D HH:mm:ss YYYY').format('DD/MM/YYYY HH:mm')
 				description = $($('#group_post > div')[1]).children('p').html()
