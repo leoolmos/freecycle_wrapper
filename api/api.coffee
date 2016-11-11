@@ -67,10 +67,10 @@ module.exports = (app) ->
 		if req.body.area.length < 1 then return res.send 400, 'Area required'
 
 		if !req.body.date_start then return res.send 400, 'Start date required'
-		date_start = moment(req.body.date_start, 'YYYY-MM-DD')._i
+		date_start = req.body.date_start
 
 		if !req.body.date_end then return res.send 400, 'End date required'
-		date_end = moment(req.body.date_end, 'YYYY-MM-DD')._i
+		date_end = req.body.date_end
 
 		allProducts = []
 
@@ -100,7 +100,7 @@ module.exports = (app) ->
 				$ = cheerio.load(body)
 				dateHtml = $('#group_post #post_details div:nth-child(2)').html()
 				dateStr = patternDate.exec(dateHtml)[1]
-				date = moment(dateStr, 'DD/MM/YYYY HH:mm')._i
+				date = moment(dateStr, 'ddd MMM D HH:mm:ss YYYY').format('DD/MM/YYYY HH:mm')
 				description = $($('#group_post > div')[1]).children('p').html()
 				id = patternId.exec(url)[1]
 				image = ''
