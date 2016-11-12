@@ -8,6 +8,7 @@ module.exports = (app) ->
 
 		self = this
 		self.allProducts = []
+		self.hideAdvanced = true
 		self.selectedAreas = []
 		self.areas = []
 		self.selectStartDate = ''

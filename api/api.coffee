@@ -66,11 +66,16 @@ module.exports = (app) ->
 
 		if req.body.area.length < 1 then return res.send 400, 'Area required'
 
-		if !req.body.date_start then return res.send 400, 'Start date required'
 		date_start = req.body.date_start
-
-		if !req.body.date_end then return res.send 400, 'End date required'
 		date_end = req.body.date_end
+
+		if !date_start
+			date_start = moment().subtract(30, 'days').format('YYYY-MM-DD')
+		if !date_end
+			date_end = moment().format('YYYY-MM-DD')
+
+		console.log date_start
+		console.log date_end
 
 		allProducts = []
 

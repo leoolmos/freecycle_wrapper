@@ -44,22 +44,25 @@
         <div class="form-group areas col-xs-12">
           <label for="areas">Areas</label>
           <div ng-dropdown-multiselect="" options="vm.areas" selected-model="vm.selectedAreas" checkboxes="true" extra-settings="vm.areasSettings" translation-texts="vm.areasTexts"></div>
+          <small ng-click="vm.hideAdvanced = false" ng-show="vm.hideAdvanced">advanced</small>
         </div>
-        <div class="form-group col-xs-12">
-          <label for="assets">Start date</label>
-          <div class="input-group date start" data-provide="datepicker">
-            <input type="text" class="form-control start-date">
-            <div class="input-group-addon">
-              <span class="glyphicon glyphicon-th"></span>
+        <div ng-show="!vm.hideAdvanced">
+          <div class="form-group col-xs-12">
+            <label for="assets">Start date</label>
+            <div class="input-group date start" data-provide="datepicker">
+              <input type="text" class="form-control start-date">
+              <div class="input-group-addon">
+                <span class="glyphicon glyphicon-th"></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="form-group col-xs-12">
-          <label for="assets">End date</label>
-          <div class="input-group date end" data-provide="datepicker">
-            <input type="text" class="form-control end-date">
-            <div class="input-group-addon">
-              <span class="glyphicon glyphicon-th"></span>
+          <div class="form-group col-xs-12">
+            <label for="assets">End date</label>
+            <div class="input-group date end" data-provide="datepicker">
+              <input type="text" class="form-control end-date">
+              <div class="input-group-addon">
+                <span class="glyphicon glyphicon-th"></span>
+              </div>
             </div>
           </div>
         </div>
