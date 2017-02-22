@@ -11,6 +11,7 @@ An app to present freecycle result in a respnsive page.  The app uses:
 
 ```shell
 npm install
+bower install
 grunt
 npm run start
 ```
