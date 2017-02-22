@@ -60,8 +60,8 @@ module.exports = (app) ->
 			self.errorMessage = error
 
 		self.init = () ->
-			dataFactory.getAreas().success (areas) ->
-				self.areas = areas
+			dataFactory.getAreas().then (areas) ->
+				self.areas = areas.data
 
 			startDate = $('.date.start').datepicker(
 				enableOnReadonly: true

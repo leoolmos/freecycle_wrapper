@@ -6,9 +6,7 @@ module.exports = (app) ->
 			apiUrl = '/api'
 			dataFactory = {}
 
-			dataFactory.getAreas = () ->
-				# $http.get apiUrl + '/areas'
-				
+			dataFactory.getAreas = () ->	
 				$http.get('./mocks/areas.json')
 
 
