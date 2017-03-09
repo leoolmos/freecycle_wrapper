@@ -18,7 +18,7 @@
     </div>
   </div>
 
-  <!-- MODAL -->
+  <!-- Creates the bootstrap modal where the image will appear -->
   <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -27,7 +27,7 @@
           <h4 class="modal-title" id="myModalLabel">Image preview</h4>
         </div>
         <div class="modal-body">
-          <img src="{{modalImage}}" id="imagepreview" style="max-width: 800px;" >
+          <img src="" id="imagepreview">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -40,7 +40,7 @@
 
     <div class="row">
       <div class="filter">
-        <h3><a href="/" title="Free Cycle">Free Cycle</a></h3>
+        <h3><a href="https://www.freecycle.org/" target="_blank" title="Free Cycle">Free Cycle</a></h3>
         <div class="form-group areas col-xs-12">
           <label for="areas">Areas</label>
           <div ng-dropdown-multiselect="" options="vm.areas" selected-model="vm.selectedAreas" checkboxes="true" extra-settings="vm.areasSettings" translation-texts="vm.areasTexts"></div>
@@ -76,7 +76,7 @@
       <ul class="products">
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-3" ng-repeat="product in vm.allProducts">
           <div class="box">
-            <div class="image" ng-class="{'cover': product.image}" ng-style="{'background-image': 'url(' + product.image + ')'}"><a href="{{product.image}}" target="_blank"></a></div>
+            <div class="image" ng-click="vm.clickFn($event)" ng-class="{'cover': product.image}" ng-style="{'background-image': 'url(' + product.image + ')'}"></div>
             <div class="details">
               <small ng-bind-html="product.area"></small>
               <h3 ng-bind-html="product.name"></h3>
