@@ -15,52 +15,69 @@ module.exports = (app) ->
 		return
 
 	app.get '/api/areas', (req, res) ->
-		allGroups = []
 		allAreas = []
 
 		getAreaId = new RegExp('.*\.org\/(.*)')
 
-		getGroups = (callbackGetGroups) ->
-			request 'https://www.freecycle.org/browse/UK', (error, response, body) ->
+		getCountries = (callbackGetCountries) ->
+			request 'https://www.freecycle.org/browse?noautodetect=1', (error, response, body) ->
 				$ = cheerio.load(body)
 
-				for group in $('#active_regions ul li a')
-					allGroups.push {
+				for country in $('#country_column_1 > ul > li > a')
+					allAreas.push {
 						link: $(group).attr('href')
 						text: $(group).html()
 					}
 
+				callbackGetCountries()
+
+		getGroups = (callbackGetGroups) ->
+			async.eachSeries allAreas, ( (country, callbackCountry) ->
+				request country.link, (error, response, body) ->
+					$ = cheerio.load(body)
+					country.groups = []
+
+					for group in $('#active_regions ul li a')
+						country.groups.push {
+							link: $(group).attr('href')
+							text: $(group).html()
+						}
+
+					callbackCountry()
+			), (done) ->
 				callbackGetGroups()
 
 		getAreas = (callbackGetAreas) ->
 
-			async.eachSeries allGroups, ( (group, callbackGroup) ->
+			async.eachSeries allAreas, ( (country, callbackCountry) ->
+				async.eachSeries country, ( (group, callbackGroup) ->
 
-				request group.link, (error, response, body) ->
-					# console.log 'Group ' + group.text
-					$ = cheerio.load(body)
+					request group.link, (error, response, body) ->
+						# console.log 'Group ' + group.text
+						$ = cheerio.load(body)
 
-					async.eachSeries $('#active_groups ul li a'), ((area, callbackArea) ->
-						# console.log $(area).html() + ' (' + group.text + ')'
-						allAreas.push {
-							id: getAreaId.exec($(area).attr('href'))[1]
-							label: $(area).html() + ' (' + group.text + ')'
-						}
-						callbackArea()
-					)
-
-					callbackGroup()
+						async.eachSeries $('#active_groups ul li a'), ((area, callbackArea) ->
+							# console.log $(area).html() + ' (' + group.text + ')'
+							group.areas = []
+							group.areas.push {
+								id: getAreaId.exec($(area).attr('href'))[1]
+								label: $(area).html()
+							}
+							callbackArea()
+						), (done) ->
+							callbackGroup()
+				), (done) ->
+					callbackCountry()
 			), (done) ->
 				callbackGetAreas()
 				return
 
-		getGroups( () ->
-			getAreas( () ->
-				sortResults allAreas, 'label', true, (allAreas) ->
-					console.log allAreas
-					res.jsonp allAreas
-			)
-		)
+		getCountries () ->
+			getGroups () ->
+				getAreas () ->
+					sortResults allAreas, 'label', true, (allAreas) ->
+						console.log allAreas
+						res.jsonp allAreas
 
 	app.post '/api/products', (req, res) ->
 
