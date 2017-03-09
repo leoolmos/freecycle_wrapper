@@ -42,12 +42,18 @@ body {
 .home .filter h3 {
   display: block;
   margin: 0 auto;
-  text-indent: -9999px;
   width: 215px;
   height: 100px;
   background: url('../images/logo.jpg') no-repeat;
   background-size: 215px 100px;
   margin-bottom: 30px;
+}
+.home .filter h3 a {
+  display: inline-block;
+  width: 215px;
+  height: 100px;
+  text-indent: -9999px;
+  cursor: pointer;
 }
 .home .filter small {
   float: right;
@@ -70,6 +76,10 @@ body {
   right: 15px;
   top: 14px;
 }
+.home #imagepreview {
+  width: 100%;
+  height: auto;
+}
 .home .products {
   padding: 0 10px;
   margin-top: 50px;
@@ -83,6 +93,7 @@ body {
   list-style: none;
   padding: 5px;
   display: flex;
+  min-height: 320px;
   flex-direction: column;
 }
 .home .products li .box {
@@ -111,6 +122,7 @@ body {
   width: 100%;
   height: 150px;
   background-color: #e3e3e3;
+  cursor: pointer;
 }
 .home .products li .box .image:before {
   content: '';
@@ -127,11 +139,6 @@ body {
 }
 .home .products li .box .image.cover:before {
   display: none;
-}
-.home .products li .box .image a {
-  float: left;
-  width: 100%;
-  height: 150px;
 }
 .home .products li .box .details {
   float: left;
