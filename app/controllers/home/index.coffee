@@ -130,4 +130,3 @@ module.exports = (app) ->
 		angular.element(document).ready( () ->
 			self.init()
 		)
-	

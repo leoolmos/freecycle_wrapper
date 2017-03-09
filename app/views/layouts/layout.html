@@ -14,6 +14,11 @@
 
     <script type='text/javascript' src='/js/libs.js'></script>
     <script type='text/javascript' src='/js/compiled.js'></script>
-    <script src="//localhost:35729/livereload.js"></script>
+    <script>
+      host = window.location.hostname
+      if(host == 'localhost') {
+        document.write("<script src='http://" + host + ":35729/livereload.js'><\/script>")
+      }
+    </script>
   </body>
 </html>
