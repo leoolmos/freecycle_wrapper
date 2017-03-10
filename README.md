@@ -1,6 +1,6 @@
 # Freecycle wrapper
 
-An app to present freecycle result in a responsive format.  The app uses:
+An app to present freecycle result in a respnsive page.  The app uses:
 
 - NodeJS
 - Grunt
@@ -11,7 +11,6 @@ An app to present freecycle result in a responsive format.  The app uses:
 
 ```shell
 npm install
-bower install
 grunt
 npm run start
 ```
