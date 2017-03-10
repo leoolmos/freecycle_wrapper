@@ -71,6 +71,9 @@ body {
 .home .filter .multiselect-parent .dropdown-menu {
   width: 100%;
 }
+.home .filter .multiselect-parent .dropdown-menu > li a {
+  white-space: normal;
+}
 .home .filter .multiselect-parent .btn .caret {
   position: absolute;
   right: 15px;
@@ -86,7 +89,7 @@ body {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: box;
   flex-wrap: wrap;
 }
 .home .products li {

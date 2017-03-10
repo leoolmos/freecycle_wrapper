@@ -1,6 +1,8 @@
 module.exports = (app) ->
 	request = require 'request'
 	cheerio = require 'cheerio'
+	fs = require 'fs'
+	path = require 'path'
 	async = require 'async'
 	moment = require 'moment'
 
@@ -23,42 +25,52 @@ module.exports = (app) ->
 			request 'https://www.freecycle.org/browse?noautodetect=1', (error, response, body) ->
 				$ = cheerio.load(body)
 
-				for country in $('#country_column_1 > ul > li > a')
+				for country in $('#active_country_list > section > ul > li > a')
 					allAreas.push {
-						link: $(group).attr('href')
-						text: $(group).html()
+						link: $(country).attr('href')
+						text: $(country).html()
 					}
+
+				console.log "Countries done"
+				console.log ""
 
 				callbackGetCountries()
 
 		getGroups = (callbackGetGroups) ->
 			async.eachSeries allAreas, ( (country, callbackCountry) ->
+				console.log "Getting groups from: ", country.text
 				request country.link, (error, response, body) ->
 					$ = cheerio.load(body)
 					country.groups = []
 
-					for group in $('#active_regions ul li a')
+					for group in $('#content article ul li a')
 						country.groups.push {
+							id: $(group).attr('href').substr($(group).attr('href').lastIndexOf('/') + 1);
 							link: $(group).attr('href')
 							text: $(group).html()
 						}
 
 					callbackCountry()
 			), (done) ->
+				console.log "Groups done"
+				console.log ""
 				callbackGetGroups()
 
 		getAreas = (callbackGetAreas) ->
 
+			console.log 'Getting Areas'
+
 			async.eachSeries allAreas, ( (country, callbackCountry) ->
-				async.eachSeries country, ( (group, callbackGroup) ->
+				async.eachSeries country.groups, ( (group, callbackGroup) ->
+					console.log "Getting areas from: ", group.text
 
 					request group.link, (error, response, body) ->
 						# console.log 'Group ' + group.text
 						$ = cheerio.load(body)
 
+						group.areas = []
 						async.eachSeries $('#active_groups ul li a'), ((area, callbackArea) ->
 							# console.log $(area).html() + ' (' + group.text + ')'
-							group.areas = []
 							group.areas.push {
 								id: getAreaId.exec($(area).attr('href'))[1]
 								label: $(area).html()
@@ -75,9 +87,34 @@ module.exports = (app) ->
 		getCountries () ->
 			getGroups () ->
 				getAreas () ->
-					sortResults allAreas, 'label', true, (allAreas) ->
-						console.log allAreas
-						res.jsonp allAreas
+					newJson = []
+
+					newObj = allAreas.filter (country) ->
+						country.groups.filter (group) ->
+							if !group.areas
+								return newJson.push
+									'id': group.id,
+									'label': group.text,
+									'groupBy': country.text
+
+							group.areas.filter (area) ->
+								return newJson.push
+									'id': area.id,
+									'label': area.label,
+									'groupBy': country.text + '/' + group.text
+
+					jsonAllStr = JSON.stringify(allAreas)
+					jsonStr = JSON.stringify(newJson)
+
+					fs.writeFile path.join(__dirname + "/../app/mocks/original.json"), jsonAllStr, (err) ->
+						if (err)
+							throw err
+
+					fs.writeFile path.join(__dirname + "/../app/mocks/areas.json"), jsonStr, (err) ->
+						if (err)
+							throw err
+						console.log 'Areas Done'
+
 
 	app.post '/api/products', (req, res) ->
 

@@ -62,8 +62,10 @@ module.exports = (app) ->
 		self.clickFn = ($event) ->
 			bg = $($event.currentTarget).css('background-image')
 			bg = bg.replace(/.*\s?url\([\'\"]?/, '').replace(/[\'\"]?\).*/, '')
-			$('#imagepreview').attr 'src', bg
-			$('#imagemodal').modal 'show'
+
+			if bg.indexOf('freecycle.org') > -1
+				$('#imagepreview').attr 'src', bg
+				$('#imagemodal').modal 'show'
 
 		self.init = () ->
 			dataFactory.getAreas().then (areas) ->
@@ -117,7 +119,6 @@ module.exports = (app) ->
 			dataFactory.getProducts(self.selectedAreas, self.selectStartDate, self.selectEndDate).then( (products) ->
 				self.hideLoading()
 				self.allProducts = products.data
-				self.clickFn()
 			, (err) ->
 				self.showError err
 				return
